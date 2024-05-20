@@ -1,0 +1,64 @@
+/* src/css/education.css */
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color); /* Add this line */
+  color: var(--text-color-light); /* Add this line */
+  min-height: 100vh; /* Ensure it covers full height */
+  padding-top: 100px; /* Adjust for fixed navbar */
+  text-align: center;
+}
+
+.education-content {
+  max-width: 800px;
+  margin: 20px;
+}
+
+.education-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.education-card {
+  background-color: var(--card-background);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.education-card h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.education-card .education-attendance {
+  font-size: 1.2em; /* Adjusted size for attendance */
+}
+
+.education-card h4 {
+  font-size: 1.5em; /* Adjusted size for subheadings */
+  margin-bottom: 10px;
+}
+
+.education-card p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.education-logo {
+  /*width: 100px;*/ /* Adjust the size as needed */
+  height: auto;
+  margin-bottom: 10px; /* Space between the image and the text below */
+}
+
+.education-courses {
+  padding-left: 1.5rem; /* Adjust left padding for indentation */
+}
+
+.education-courses li {
+  text-align: left; /* Align list items to the left */
+}
