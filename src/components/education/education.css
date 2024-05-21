@@ -1,0 +1,74 @@
+/* src/css/education.css */
+
+.whole-home {
+  background-color: var(--background-color);
+  width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: var(--text-color-light);
+  text-align: center;
+}
+
+.education-content {
+  max-width: 800px;
+  margin: 20px;
+}
+
+.education-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.education-card {
+  background-color: var(--card-background);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.education-card h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.education-card .education-attendance {
+  font-size: 1.2em; 
+}
+
+.education-card h4 {
+  font-size: 1.5em; 
+  margin-bottom: 10px;
+}
+
+.education-card p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.education-logo {
+  width: 350px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.education-courses {
+  padding-left: 1.5rem; 
+}
+
+.education-courses li {
+  text-align: left; 
+}
