@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #646cff;
+  --primary-color: #ffffff;
   --secondary-color: #535bf2;
   --background-color: #242424;
   --text-color-light: rgba(255, 255, 255, 0.87);
@@ -7,14 +7,21 @@
   --card-background: #1a1a1a;
 }
 
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif; /*Change to inherit*/
+}
+
+html, body {
+  height: 100%; /* Ensure html and body elements cover full height */
+  margin: 0;
 }
 
 body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: var(--text-color-light);
   background-color: var(--background-color); /* Ensure this sets the background color for the body */
   line-height: 1.5;
@@ -22,8 +29,6 @@ body {
   flex-direction: column;
   align-items: center;
   min-width: 320px;
-  min-height: 100vh;
-  margin: 0;
 }
 
 a {
@@ -76,3 +81,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+

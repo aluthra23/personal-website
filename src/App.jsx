@@ -1,17 +1,17 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter, Routes, and Route
-import Home from './components/Home';
-import Education from './components/Education';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import NotFound from './components/NotFound'; // Import the NotFound component
-import ButtonGradient from './assets/svg/ButtonGradient'
+import Home from './components/pages/home/Home';
+import Education from './components/pages/education/Education';
+import Skills from './components/pages/skills/Skills';
+import Experience from './components/pages/experience/Experience';
+import Projects from './components/pages/projects/Projects';
+import NotFound from './components/pages/NotFound'; // Import the NotFound component
+import './css/app.css';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Router> {/* Wrap Routes in Router */}
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,7 +21,6 @@ const App = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<NotFound />} /> {/* Catch-all route for invalid paths */}
         </Routes>
-        <ButtonGradient/>
       </Router>
     </div>
   );
