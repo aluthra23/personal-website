@@ -27,3 +27,7 @@ This website serves as a showcase of my skills, projects, and experiences. It pr
 
    ```bash
    git clone https://github.com/aluthra23/personal-website.git
+   cd your-repo
+   npm install
+   npm run dev
+   
