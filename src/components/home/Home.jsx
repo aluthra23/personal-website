@@ -8,6 +8,10 @@ import AravImage from '../../assets/Arav_Image.jpg'; // Import the image
 import Socials from './Socials';
 
 function Home() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'instant' }); // Smooth scroll to the top of the page
+  };
+
   return (
     <div className="whole-home">
       <Navbar />
@@ -20,7 +24,9 @@ function Home() {
               <p>Freshman at <a href="https://umd.edu/">University of Maryland, College Park</a> and <a href="https://aces.umd.edu/">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College pursuing a double major in <a href="https://www.cs.umd.edu/">Computer Science</a> and <a href="https://www-math.umd.edu/">Mathematics</a></p>
             </div>
             <div className='contact-text'>
-              <a href='/personal-website/contact' className="contact-button">Contact Me</a> {/* Add this line */}
+              <Link to='/personal-website/contact' className="contact-button" onClick={scrollToTop}>
+                Contact Me
+              </Link> {/* Add this line */}
             </div>
           </div>
         </div>
