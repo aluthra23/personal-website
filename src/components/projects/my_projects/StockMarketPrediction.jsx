@@ -1,10 +1,20 @@
-// src/components/projects/StockMarketPrediction.jsx
+// src/components/projects/my_projects/StockMarketPrediction.jsx
+
 import React from 'react';
+import { FaPython } from 'react-icons/fa';
+import { SiTensorflow, SiJupyter } from 'react-icons/si';
 
 const StockMarketPrediction = () => {
   return (
     <div className="project-card">
-      <h3 className="project-title">Stock Market Prediction with LSTM</h3>
+      <div className="project-header">
+        <h3 className="project-title">Stock Market Prediction with LSTM</h3>
+        <div className="project-icons">
+          <FaPython title="Python" />
+          <SiTensorflow title="TensorFlow" />
+          <SiJupyter title="Jupyter Notebook" />
+        </div>
+      </div>
       <p className="project-description"><strong>Stock Market Prediction with LSTM</strong> explores the use of Long Short-Term Memory (LSTM) networks for stock market prediction. The notebook contains Python code for training an LSTM model to predict stock prices based on historical data.</p>
       <h4 className="features-title">Overview:</h4>
       <p className="project-description">The project aims to implement an LSTM model to predict stock prices using historical data. It includes steps for data preprocessing, model training, evaluation, and prediction.</p>

@@ -1,135 +1,148 @@
 /* src/css/projects/projects.css */
 
-
 .projects-container {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--background-color);
-    color: var(--text-color-light);
-    padding-top: 100px;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+  color: var(--text-color-light);
+  padding-top: 100px;
 }
-  
-  .projects-content {
-    max-width: 800px;
-    /* width: 100%; */
-    padding: 20px;
-  }
-  
-  .projects-title {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .github-link {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .github-link a {
-    color: var(--tertiary-color);
-    text-decoration: none;
-  }
-  
-  .github-link a:hover {
-    color: var(--secondary-color);
-  }
-  
-  .project-card {
-    background-color: var(--card-background);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px; /* Increased margin for better spacing */
-  }
 
-  .project-card a {
-    color: vars(--tertiary-color);
-  }
-  
-  .project-title {
-    font-size: 1.8em;
-    margin-bottom: 15px; /* Increased margin for better spacing */
-  }
-  
-  .features-title, .server-title {
-    font-size: 1.5em;
-    margin-bottom: 10px; /* Adjusted for better spacing */
-  }
-  
-  .project-description {
-    font-size: 1.2em;
-    margin-bottom: 15px; /* Increased margin for better spacing */
-  }
+.projects-content {
+  max-width: 800px;
+  /* width: 100%; */
+  padding: 20px;
+}
 
-  .project-description a {
-    color: var(--tertiary-color);
-  }
+.projects-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-  
-  
-  .project-features,
-  .project-model-list,
-  .project-steps {
-    font-size: 1.2em;
-    margin: 15px 0; /* Increased margin for better spacing */
-    padding-left: 20px;
-    list-style: disc; /* Ensures list items are visible */
-    color: var(--text-color-light); /* Makes bullet points visible */
-  }
-  
-  .project-steps {
-    list-style: decimal; /* Numbers for steps */
-  }
-  
-  .project-link-list {
-    font-size: 1.2em;
-    margin-top: 15px; /* Increased margin for better spacing */
-  }
-  
-  .project-link-list a {
-    color: var(--primary-color);
-    text-decoration: none;
-  }
-  
-  .project-link-list a:hover {
-    color: var(--secondary-color);
-  }
-  
-  .project-video {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .project-video img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project-video a {
-    color: var(--tertiary-color);
-    text-decoration: none;
-  }
-  
-  .project-video a:hover {
-    color: var(--secondary-color);
-  }
-  
-  .project-link {
-    margin-top: 15px; /* Add margin for better spacing */
-    text-align: center; /* Center align the link */
-  }
-  
-  .project-link a {
-    color: var(--tertiary-color);
-    text-decoration: none;
-  }
-  
-  .project-link a:hover {
-    color: var(--secondary-color);
-  }
-  
+.github-link {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.github-link a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+.github-link a:hover {
+  color: var(--secondary-color);
+}
+
+.project-card {
+  background-color: var(--card-background);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Increased margin for better spacing */
+  position: relative; /* Added for icon positioning */
+}
+
+.project-card a {
+  color: vars(--tertiary-color);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between; /* Ensures space between title and icons */
+  align-items: center; /* Aligns items vertically */
+}
+
+.project-title {
+  font-size: 1.8em;
+  margin-bottom: 15px; /* Increased margin for better spacing */
+}
+
+.project-icons {
+  display: flex;
+  gap: 15px; /* Space between icons */
+}
+
+.project-icons svg {
+  font-size: 1.7em;
+  color: var(--icon-color);
+}
+
+.features-title, .server-title {
+  font-size: 1.5em;
+  margin-bottom: 10px; /* Adjusted for better spacing */
+}
+
+.project-description {
+  font-size: 1.2em;
+  margin-bottom: 15px; /* Increased margin for better spacing */
+}
+
+.project-description a {
+  color: var(--tertiary-color);
+}
+
+.project-features,
+.project-model-list,
+.project-steps {
+  font-size: 1.2em;
+  margin: 15px 0; /* Increased margin for better spacing */
+  padding-left: 20px;
+  list-style: disc; /* Ensures list items are visible */
+  color: var(--text-color-light); /* Makes bullet points visible */
+}
+
+.project-steps {
+  list-style: decimal; /* Numbers for steps */
+}
+
+.project-link-list {
+  font-size: 1.2em;
+  margin-top: 15px; /* Increased margin for better spacing */
+}
+
+.project-link-list a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.project-link-list a:hover {
+  color: var(--secondary-color);
+}
+
+.project-video {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.project-video img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-video a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+.project-video a:hover {
+  color: var(--secondary-color);
+}
+
+.project-link {
+  margin-top: 15px; /* Add margin for better spacing */
+  text-align: center; /* Center align the link */
+}
+
+.project-link a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+.project-link a:hover {
+  color: var(--secondary-color);
+}
