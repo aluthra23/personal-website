@@ -1,21 +1,31 @@
 /* src/css/experience.css */
+.whole-home {
+  background-color: var(--background-color);
+  width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .experience-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--background-color); /* Add this line */
-  color: var(--text-color-light); /* Add this line */
-  min-height: 100vh; /* Ensure it covers full height */
-  padding-top: 100px; /* Adjust for fixed navbar */
+  flex: 1;
+  color: var(--text-color-light);
   text-align: center;
+  padding-top: 100px;
 }
 
 .experience-content {
-  max-width: 100%; /* Update to stretch content */
-  width: 800px; /* Set maximum width */
-  margin: 20px auto; /* Center content */
+  background-color: var(--card-background);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px;
 }
 
 .experience-title {
@@ -29,6 +39,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  text-align: left; /* Align text to the left for better readability */
 }
 
 .experience-card h3 {
@@ -39,4 +50,22 @@
 .experience-card p {
   font-size: 1.2em;
   margin-bottom: 10px;
+}
+
+.experience-card ul {
+  padding-left: 20px; /* Indent the list */
+  margin-bottom: 10px;
+}
+
+.experience-card ul li {
+  margin-bottom: 5px;
+}
+
+
+.experience-text {
+  text-align: center;
+}
+
+.experience-card p {
+  text-align: center;
 }

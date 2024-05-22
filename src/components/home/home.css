@@ -2,11 +2,8 @@
 
 .whole-home {
   background-color: var(--background-color);
-  align-items: center;
   width: 100%;
-  min-height: 100vh; /* Ensure it covers full height */
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
 }
 
 .home-container {
@@ -20,13 +17,18 @@
   text-align: center;
 }
 
+.bio-text a {
+  color: var(--tertiary-color);
+}
+
 .home-card, .about-me-card {
   background-color: var(--card-background);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   margin: 20px;
+  font-size: 25px;
 }
 
 .home-card h2, .about-me-card h2 {
@@ -49,4 +51,30 @@
 
 .about-me-content {
   text-align: center;
+}
+
+.contact-text {
+  color: #fff;
+}
+
+.contact-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: var(--card-background);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.contact-button a {
+  color: var(--card-background);
+  background-color: var(--primary-color);
+}
+
+.contact-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }

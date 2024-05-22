@@ -3,19 +3,19 @@
 /* src/css/projects.css */
 
 .projects-container {
+    position: static;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--background-color);
     color: var(--text-color-light);
-    min-height: 100vh;
-    padding-top: 100px
+    padding-top: 100px;
 }
   
   .projects-content {
     max-width: 800px;
-    width: 100%;
+    /* width: 100%; */
     padding: 20px;
   }
   
@@ -31,7 +31,7 @@
   }
   
   .github-link a {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     text-decoration: none;
   }
   
@@ -45,6 +45,10 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px; /* Increased margin for better spacing */
+  }
+
+  .project-card a {
+    color: vars(--tertiary-color);
   }
   
   .project-title {
@@ -61,6 +65,12 @@
     font-size: 1.2em;
     margin-bottom: 15px; /* Increased margin for better spacing */
   }
+
+  .project-description a {
+    color: var(--tertiary-color);
+  }
+
+  
   
   .project-features,
   .project-model-list,
@@ -102,7 +112,7 @@
   }
   
   .project-video a {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     text-decoration: none;
   }
   
@@ -116,7 +126,7 @@
   }
   
   .project-link a {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     text-decoration: none;
   }
   

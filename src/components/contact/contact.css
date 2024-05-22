@@ -1,0 +1,61 @@
+/* src/components/contact/contact.css */
+
+.contact-page {
+  background-color: var(--background-color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px; /* Adjust for fixed navbar */
+}
+
+.contact-container {
+  background-color: var(--card-background);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 50px;
+  min-width: 400px;
+  /* max-width: 800px; */
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  color: var(--text-color-light);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: var(--background-color); /* Change text color to primary color */
+  background-color: #fff; /* Change background color to white */
+  border: 2px solid var(--primary-color); /* Add border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add color transition */
+}
+
+.contact-form button:hover {
+  background-color: var(--secondary-color);
+  color: #fff; /* Change text color to white on hover */
+}
+

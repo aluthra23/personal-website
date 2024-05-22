@@ -1,12 +1,21 @@
 :root {
   --primary-color: #ffffff;
   --secondary-color: #535bf2;
+  --tertiary-color: #646cff;
   --background-color: #242424;
   --text-color-light: rgba(255, 255, 255, 0.87);
   --text-color-dark: #213547;
   --card-background: #1a1a1a;
 }
 
+.whole-home {
+  background-color: var(--background-color);
+  width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 * {
@@ -17,13 +26,13 @@
 }
 
 html, body {
-  height: 100%; /* Ensure html and body elements cover full height */
+  height: 100%; 
   margin: 0;
 }
 
 body {
   color: var(--text-color-light);
-  background-color: var(--background-color); /* Ensure this sets the background color for the body */
+  background-color: var(--background-color); 
   line-height: 1.5;
   display: flex;
   flex-direction: column;
@@ -68,20 +77,4 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
-@media (prefers-color-scheme: light) {
-  body {
-    color: var(--text-color-dark);
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-
-
 

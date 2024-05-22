@@ -1,27 +1,22 @@
-// src/components/Experience.jsx
+// src/components/experience/Experience.jsx
 import React from 'react';
-import Navbar from '../../navbar/Navbar';
-import Footer from '../../footer/Footer'
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
+import TKDesign from './my_work/TKDesign';
+import './experience.css'; // Import Education-specific CSS
 
 const Experience = () => {
   return (
-    <div className="projects-container">
-      <Navbar/>
-      <div className="projects-content">
-        <h2>Experience</h2>
-        <ul>
-          <li>
-            <strong>Company Name:</strong> Position - Duration
-            <ul>
-              <li>Job responsibility 1</li>
-              <li>Job responsibility 2</li>
-              {/* Add more job responsibilities if needed */}
-            </ul>
-          </li>
+    <div className="whole-home">
+      <Navbar />
+      <div className="experience-container">
+      <h2 className="experience-title">Experience</h2>
+        <div className="experience-content">
+          <TKDesign/>
           {/* Add more work experiences as needed */}
-        </ul>
+        </div>
+        <Footer />
       </div>
-      <Footer/>
     </div>
   );
 };
