@@ -12,7 +12,7 @@ const Contact = () => {
     const form = event.target;
     const formData = new FormData(form);
     
-    const response = await fetch('https://formspree.io/f/{your_form_id}', {
+    const response = await fetch('https://formspree.io/f/xgegbaow', {
       method: 'POST',
       body: formData,
       headers: {
