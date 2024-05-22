@@ -8,12 +8,11 @@
   justify-content: center;
   background-color: var(--background-color);
   color: var(--text-color-light);
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .projects-content {
   max-width: 800px;
-  /* width: 100%; */
   padding: 20px;
 }
 
@@ -42,8 +41,8 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px; /* Increased margin for better spacing */
-  position: relative; /* Added for icon positioning */
+  margin-bottom: 30px;
+  position: relative;
 }
 
 .project-card a {
@@ -52,33 +51,33 @@
 
 .project-header {
   display: flex;
-  justify-content: space-between; /* Ensures space between title and icons */
-  align-items: center; /* Aligns items vertically */
+  justify-content: space-between;
+  align-items: center;
 }
 
 .project-title {
   font-size: 1.8em;
-  margin-bottom: 15px; /* Increased margin for better spacing */
+  margin-bottom: 15px;
 }
 
 .project-icons {
   display: flex;
-  gap: 15px; /* Space between icons */
+  gap: 15px;
 }
 
 .project-icons svg {
-  font-size: 1.7em;
+  font-size: 1.em;
   color: var(--icon-color);
 }
 
 .features-title, .server-title {
   font-size: 1.5em;
-  margin-bottom: 10px; /* Adjusted for better spacing */
+  margin-bottom: 10px;
 }
 
 .project-description {
   font-size: 1.2em;
-  margin-bottom: 15px; /* Increased margin for better spacing */
+  margin-bottom: 15px;
 }
 
 .project-description a {
@@ -89,19 +88,19 @@
 .project-model-list,
 .project-steps {
   font-size: 1.2em;
-  margin: 15px 0; /* Increased margin for better spacing */
+  margin: 15px 0;
   padding-left: 20px;
-  list-style: disc; /* Ensures list items are visible */
-  color: var(--text-color-light); /* Makes bullet points visible */
+  list-style: disc;
+  color: var(--text-color-light);
 }
 
 .project-steps {
-  list-style: decimal; /* Numbers for steps */
+  list-style: decimal;
 }
 
 .project-link-list {
   font-size: 1.2em;
-  margin-top: 15px; /* Increased margin for better spacing */
+  margin-top: 15px;
 }
 
 .project-link-list a {
@@ -134,8 +133,8 @@
 }
 
 .project-link {
-  margin-top: 15px; /* Add margin for better spacing */
-  text-align: center; /* Center align the link */
+  margin-top: 15px;
+  text-align: center;
 }
 
 .project-link a {
@@ -145,4 +144,29 @@
 
 .project-link a:hover {
   color: var(--secondary-color);
+}
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 600px) {
+  .projects-container {
+    padding-top: 120px;
+  }
+
+  .project-icons svg {
+    font-size: 1em; /* Reduce icon size */
+  }
+
+  .project-icons {
+    flex-wrap: wrap; /* Allow icons to wrap to next line */
+    justify-content: center; /* Center align icons */
+  }
+
+  .project-icons svg {
+    flex: 0 0 20%; /* Make icons take up 20% of container width (5 icons per row) */
+  }
+
+  .project-icons svg:not(:last-child) {
+    margin-right: 0; /* Remove right margin for icons in the last column */
+  }
 }

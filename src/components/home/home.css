@@ -79,4 +79,31 @@
   color: var(--primary-color);
 }
 
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .home-container {
+    padding-top: 130px;
+  }
+  .home-card, .about-me-card {
+    padding: 20px; /* Decrease padding */
+    font-size: 20px; /* Decrease font size */
+    max-width: 90%; /* Adjust max width */
+  }
 
+  .home-card h2, .about-me-card h2 {
+    font-size: 2em; /* Decrease font size */
+  }
+
+  .home-card p, .about-me-card p {
+    font-size: 1em; /* Decrease font size */
+  }
+
+  .profile-image {
+    width: 200px; /* Decrease image size */
+    height: 200px; /* Decrease image size */
+  }
+
+  .contact-button {
+    font-size: 1em; /* Decrease font size */
+  }
+}

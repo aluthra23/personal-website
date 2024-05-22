@@ -18,7 +18,7 @@
   flex: 1;
   color: var(--text-color-light);
   text-align: center;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .education-content {
@@ -72,4 +72,39 @@
 
 .education-courses li {
   text-align: left; 
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .education-container {
+    padding-top: 120px;
+  }
+
+  .education-title {
+    font-size: 2em; /* Decrease title font size for smaller screens */
+  }
+
+  .education-card {
+    padding: 15px; /* Decrease padding for education cards on smaller screens */
+  }
+
+  .education-card h3 {
+    font-size: 1.5em; /* Decrease heading font size for education cards on smaller screens */
+  }
+
+  .education-card .education-attendance {
+    font-size: 1.1em; /* Decrease font size for attendance information on smaller screens */
+  }
+
+  .education-card h4 {
+    font-size: 1.3em; /* Decrease font size for subheadings on smaller screens */
+  }
+
+  .education-card p {
+    font-size: 1.1em; /* Decrease font size for text content on smaller screens */
+  }
+
+  .education-logo {
+    width: 250px; /* Decrease logo width for smaller screens */
+  }
 }

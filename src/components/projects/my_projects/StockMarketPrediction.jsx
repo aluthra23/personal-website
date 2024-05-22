@@ -9,11 +9,11 @@ const StockMarketPrediction = () => {
     <div className="project-card">
       <div className="project-header">
         <h3 className="project-title">Stock Market Prediction with LSTM</h3>
-        <div className="project-icons">
+        {/* <div className="project-icons">
           <FaPython title="Python" />
           <SiTensorflow title="TensorFlow" />
           <SiJupyter title="Jupyter Notebook" />
-        </div>
+        </div> */}
       </div>
       <p className="project-description"><strong>Stock Market Prediction with LSTM</strong> explores the use of Long Short-Term Memory (LSTM) networks for stock market prediction. The notebook contains Python code for training an LSTM model to predict stock prices based on historical data.</p>
       <h4 className="features-title">Overview:</h4>

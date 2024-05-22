@@ -5,7 +5,7 @@
   position: absolute;
   top: 10px; /* Adjust top position */
   right: 10px; /* Adjust right position */
-  width: 40px; /* Adjust logo size */
+  width: 30px; /* Adjust logo size for smaller screens */
   height: auto;
 }
 
@@ -16,7 +16,7 @@
   justify-content: center;
   background-color: var(--background-color); /* Add this line */
   color: var(--text-color-light); /* Add this line */
-  padding-top: 80px; 
+  padding-top: 58px; 
   text-align: center;
 }
 
@@ -73,4 +73,24 @@
   color: #888; /* Adjust color to a grayish shade */
   margin-bottom: 5px;
   margin-top: 0; /* Add margin-top to separate from the title */
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .skills-container {
+    padding-top: 110px;
+  }
+
+  .skill-logo {
+    width: 40px; /* Further decrease logo size for smaller screens */
+  }
+
+  .skill-card h3 {
+    font-size: 1.5em; /* Decrease heading font size for smaller screens */
+  }
+
+
+  .skill-level {
+    font-size: 0.9em; /* Decrease skill level font size for smaller screens */
+  }
 }

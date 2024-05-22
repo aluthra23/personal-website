@@ -9,14 +9,14 @@ const MyWebsite = () => {
     <div className="project-card">
       <div className="project-header">
         <h3 className="project-title">Personal Portfolio Website</h3>
-        <div className="project-icons">
+        {/* <div className="project-icons">
           <FaReact title="React.js" />
           <FaHtml5 title="HTML5" />
           <FaCss3Alt title="CSS3" />
           <FaJsSquare title="JavaScript" />
           <FaGithub title="GitHub" />
           <SiGit title="Git" />
-        </div>
+        </div> */}
       </div>
       <p className="project-description">
         I developed a personal portfolio website to showcase my skills, projects, and experiences. The primary purpose of this website is to create a professional online presence, allowing potential employers, collaborators, and peers to easily view my work and get to know more about me. This project was my first foray into using React.js, and it has been an invaluable experience in modern web development practices.

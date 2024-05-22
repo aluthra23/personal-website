@@ -13,19 +13,16 @@
   flex-wrap: wrap; /* Allow cards to wrap to next line if space is limited */
 }
   
-  .social-link {
-    margin: 0 10px;
-    color: #555; /* Change color as needed */
-    font-size: 24px; /* Adjust size as needed */
-    transition: color 0.3s ease;
-  }
-  
-  .social-link:hover {
-    color: #007bff; /* Change hover color as needed */
-  }
-  
-  /* Add this CSS to your existing CSS file or create a new one */
+.social-link {
+  margin: 0 10px;
+  color: #555; /* Change color as needed */
+  font-size: 24px; /* Adjust size as needed */
+  transition: color 0.3s ease;
+}
 
+.social-link:hover {
+  color: #007bff; /* Change hover color as needed */
+}
 
 .social-links {
   margin-top: 20px;
@@ -43,4 +40,13 @@
   text-decoration: underline;
 }
 
-
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .social-card-group {
+    gap: 10px; /* Reduce gap between social cards for smaller screens */
+  }
+  
+  .social-link {
+    font-size: 18px; /* Decrease font size of social links for smaller screens */
+  }
+}

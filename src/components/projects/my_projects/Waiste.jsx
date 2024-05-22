@@ -9,7 +9,7 @@ const Waiste = () => {
     <div className="project-card">
       <div className="project-header">
         <h3 className="project-title">wAIste</h3>
-        <div className="project-icons">
+        {/* <div className="project-icons">
           <SiFlutter title="Flutter" />
           <SiDart title="Dart" />
           <FaPython title="Python" />
@@ -18,7 +18,7 @@ const Waiste = () => {
           <SiRuby title="Ruby" />
           <FaGithub title="GitHub" />
           <SiGit title="Git" />
-        </div>
+        </div> */}
       </div>
       <p className="project-description">I collaborated with <a href="https://www.linkedin.com/in/narainsriram/" target="_blank" rel="noopener noreferrer">Narain Sriram</a> on this project.</p>
       <p className="project-description"><strong>wAIste</strong> is an innovative waste management application powered by artificial intelligence (AI). Our app revolutionizes waste disposal processes by employing state-of-the-art machine learning algorithms to analyze images of waste items captured by users. By harnessing the power of AI, wAIste provides personalized recommendations for proper waste disposal methods, including recycling, composting, or landfill. What sets wAIste apart is its utilization of two distinct AI models: one for general waste categorization and another for advanced garbage detection. With its intuitive interface and real-time insights, wAIste empowers users to make informed decisions about waste management, contributing to a cleaner and more sustainable environment.</p>

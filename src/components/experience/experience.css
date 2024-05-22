@@ -16,7 +16,7 @@
   flex: 1;
   color: var(--text-color-light);
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .experience-content {
@@ -68,4 +68,52 @@
 
 .experience-card p {
   text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .experience-container {
+    padding-top: 140px; /* Adjust padding top for smaller screens */
+  }
+
+  .experience-content {
+    padding: 20px; /* Decrease padding for smaller screens */
+    max-width: 90%; /* Adjust max-width for smaller screens */
+  }
+
+  .experience-title {
+    font-size: 2em; /* Decrease title font size for smaller screens */
+  }
+
+  .experience-card {
+    padding: 15px; /* Decrease padding for smaller screens */
+    margin-bottom: 15px; /* Decrease margin bottom for smaller screens */
+  }
+
+  .experience-card h3 {
+    font-size: 1.5em; /* Decrease heading font size for smaller screens */
+    margin-bottom: 8px; /* Decrease margin bottom for smaller screens */
+  }
+
+  .experience-card p {
+    font-size: 1em; /* Decrease text font size for smaller screens */
+    margin-bottom: 8px; /* Decrease margin bottom for smaller screens */
+  }
+
+  .experience-card ul {
+    padding-left: 15px; /* Decrease padding left for smaller screens */
+    margin-bottom: 8px; /* Decrease margin bottom for smaller screens */
+  }
+
+  .experience-card ul li {
+    margin-bottom: 3px; /* Decrease margin bottom for smaller screens */
+  }
+
+  .experience-text {
+    text-align: center; /* Center align text for smaller screens */
+  }
+
+  .experience-card p {
+    text-align: center; /* Center align text for smaller screens */
+  }
 }
