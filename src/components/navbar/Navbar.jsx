@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <nav>
-      <Link to="/" className="title">
+      <Link to="/personal-website/" className="title">
         Arav Luthra
       </Link>
       <div className="menu">
@@ -29,22 +29,22 @@ function Navbar() {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/personal-website/">Home</Link>
           </li>
           <li>
-            <Link to="/education">Education</Link>
+            <Link to="/personal-website/education">Education</Link>
           </li>
           <li>
-            <Link to="/skills">Skills</Link>
+            <Link to="/personal-website/skills">Skills</Link>
           </li>
           <li>
-            <Link to="/experience">Experience</Link>
+            <Link to="/personal-website/experience">Experience</Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/personal-website/projects">Projects</Link>
           </li>
           <li>
-            <Link to="/contact">Contact Me</Link>
+            <Link to="/personal-website/contact">Contact Me</Link>
           </li>
         </ul>
       </div>

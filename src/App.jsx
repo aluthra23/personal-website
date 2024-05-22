@@ -15,12 +15,12 @@ const App = () => {
     <div className="app">
       <Router> {/* Wrap Routes in Router */}
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/personal-website/" element={<Home />} />
+          <Route path="/personal-website/education" element={<Education />} />
+          <Route path="/personal-website/skills" element={<Skills />} />
+          <Route path="/personal-website/experience" element={<Experience />} />
+          <Route path="/personal-website/projects" element={<Projects />} />
+          <Route path="/personal-website/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} /> 
         </Routes>
       </Router>
