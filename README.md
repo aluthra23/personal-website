@@ -1,9 +1,28 @@
-# React + Vite
+# My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website repository! This repository contains the source code for my personal portfolio website.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# personal-website
+This website serves as a showcase of my skills, projects, and experiences. It provides visitors with information about my background, skills, projects, and ways to get in touch with me.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (React.js)
+- Other technologies/frameworks/libraries (if applicable)
+
+## Features
+
+- **Home Page:** Introduction to myself and a brief overview of the website.
+- **Skills Page:** Details about my technical skills categorized into different sections.
+- **Projects Page:** Showcase of my notable projects with descriptions and links.
+- **Contact Page:** Form for visitors to contact me directly.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
