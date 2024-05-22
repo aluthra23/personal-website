@@ -8,9 +8,9 @@ This website serves as a showcase of my skills, projects, and experiences. It pr
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (React.js)
+- **HTML5:** Used for structuring the content of web pages.
+- **CSS3:** Used for styling the layout and design of web pages.
+- **JavaScript (React.js):** Used for building interactive user interfaces and dynamic content.
 
 ## Features
 
@@ -30,4 +30,3 @@ This website serves as a showcase of my skills, projects, and experiences. It pr
    cd your-repo
    npm install
    npm run dev
-   
