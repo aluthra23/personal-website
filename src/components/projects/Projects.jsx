@@ -1,9 +1,10 @@
-// src/components/Projects.jsx
+// src/components/projects/Projects.jsx
 import React from 'react';
 import Navbar from '../navbar/Navbar';
 import Waiste from './my_projects/Waiste'
 import StockMarketPrediction from './my_projects/StockMarketPrediction';
-import Project3 from './my_projects/Project3';
+import MyWebsite from './my_projects/MyWebsite'
+// import Project3 from './my_projects/Project3';
 import './projects.css'; // Import Projects-specific CSS
 import Footer from '../footer/Footer'
 
@@ -18,6 +19,7 @@ const Projects = () => {
             <a href="https://github.com/aluthra23" className='project-link'>Visit my GitHub Profile</a>
           </div>
           <Waiste />
+          <MyWebsite/>
           <StockMarketPrediction />
           {/* <Project3 /> */}
         </div>
