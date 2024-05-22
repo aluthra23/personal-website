@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../navbar/navbar.css'; // Correctly import navbar CSS
+import './navbar.css'; // Correctly import navbar CSS
 import { getImageUrl } from '../../utils';
-// import DeviceInfo from 'react-native-device-info';
-
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'instant' }); // Smooth scroll to the top of the page
+  };
+
   return (
     <nav>
-      <Link to="/personal-website/" className="title">
+      <Link to="/personal-website/" className="title" onClick={scrollToTop}>
         Arav Luthra
       </Link>
       <div className="menu">
@@ -26,25 +28,40 @@ function Navbar() {
         />
         <ul
           className={`${"menu-items"} ${menuOpen && "menu-open"}`}
-          onClick={() => setMenuOpen(false)}
+          onClick={() => {
+            setMenuOpen(false);
+            scrollToTop(); // Scroll to top when a menu item is clicked
+          }}
         >
           <li>
-            <Link to="/personal-website/">Home</Link>
+            <Link to="/personal-website/" onClick={scrollToTop}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/personal-website/education">Education</Link>
+            <Link to="/personal-website/education" onClick={scrollToTop}>
+              Education
+            </Link>
           </li>
           <li>
-            <Link to="/personal-website/skills">Skills</Link>
+            <Link to="/personal-website/skills" onClick={scrollToTop}>
+              Skills
+            </Link>
           </li>
           <li>
-            <Link to="/personal-website/experience">Experience</Link>
+            <Link to="/personal-website/experience" onClick={scrollToTop}>
+              Experience
+            </Link>
           </li>
           <li>
-            <Link to="/personal-website/projects">Projects</Link>
+            <Link to="/personal-website/projects" onClick={scrollToTop}>
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to="/personal-website/contact">Contact Me</Link>
+            <Link to="/personal-website/contact" onClick={scrollToTop}>
+              Contact Me
+            </Link>
           </li>
         </ul>
       </div>
