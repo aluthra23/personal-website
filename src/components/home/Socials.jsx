@@ -3,6 +3,7 @@ import React from 'react';
 import './socials.css'; // Import Socials-specific CSS
 import SocialCard from './SocialCard'; // Import the SocialCard component
 import { Link } from 'react-router-dom';
+import Resume from '../../assets/Resume.pdf'; // Import the image
 
 const Socials = () => {
   return (
@@ -25,11 +26,10 @@ const Socials = () => {
           icon="https://cdn.icon-icons.com/icons2/2699/PNG/512/devpost_logo_icon_169279.png"
           link="https://devpost.com/aravluthra"
         />
-        <div className="social-card">
-          <Link to="/personal-website/src/assets/Resume.pdf" target="_blank">
-            <img src="https://pngimg.com/d/cv_PNG30.png" className="social-icon" />
-          </Link>
-        </div>
+        <SocialCard
+          icon="https://pngimg.com/d/cv_PNG30.png"
+          link="https://drive.google.com/file/d/1fEWvJ35M5OEszrZHeVMzM3Oc3bNkoUf-/view"
+        />
         {/* Add other social media platforms */}
       </div>
     </div>

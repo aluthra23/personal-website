@@ -5,6 +5,7 @@ import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
 import './home.css'; // Import Home-specific CSS
 import AravImage from '../../assets/Arav_Image.jpg'; // Import the image
+import Resume from '../../assets/Resume.pdf'; // Import the image
 import Socials from './Socials';
 
 function Home() {
