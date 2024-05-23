@@ -43,7 +43,7 @@
 /* Media queries for responsiveness */
 @media only screen and (max-width: 600px) {
   .social-card-group {
-    gap: 20px; /* Reduce gap between social cards for smaller screens */
+    gap: 15px; /* Reduce gap between social cards for smaller screens */
   }
   
   .social-link {
