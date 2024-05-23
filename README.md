@@ -30,3 +30,8 @@ This website serves as a showcase of my skills, projects, and experiences. It pr
    cd your-repo
    npm install
    npm run dev
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
