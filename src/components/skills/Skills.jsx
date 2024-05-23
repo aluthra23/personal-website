@@ -5,11 +5,18 @@ import Footer from '../footer/Footer';
 import SkillCard from './SkillCard';
 import './skills.css';
 import { getImageUrl } from '../../utils';
+import {motion} from 'framer-motion';
 
 const Skills = () => {
   return (
-    <div className='whole-home'>
-      <Navbar/>
+    <motion.div 
+      className='whole-home'
+      
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+    >
+      {/* <Navbar/> */}
       <div className="skills-container">
         <div className="skills-content">
           <h2 className='skills-title'>Skills</h2>
@@ -159,7 +166,7 @@ const Skills = () => {
         </div>
         <Footer/>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

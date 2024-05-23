@@ -7,11 +7,17 @@ import MyWebsite from './my_projects/MyWebsite'
 // import Project3 from './my_projects/Project3';
 import './projects.css'; // Import Projects-specific CSS
 import Footer from '../footer/Footer'
+import {motion} from 'framer-motion';
 
 const Projects = () => {
   return (
-    <div className='whole-home'>
-      <Navbar />
+    <motion.div 
+      className='whole-home'
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+    >
+      {/* <Navbar /> */}
       <div className="projects-container">
         <div className="projects-content">
           <h2 className="projects-title">Projects</h2>
@@ -25,7 +31,7 @@ const Projects = () => {
         </div>
         <Footer/>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

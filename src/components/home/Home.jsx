@@ -5,8 +5,8 @@ import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
 import './home.css'; // Import Home-specific CSS
 import AravImage from '../../assets/Arav_Image.jpg'; // Import the image
-import Resume from '../../assets/Resume.pdf'; // Import the image
 import Socials from './Socials';
+import {motion} from 'framer-motion';
 
 function Home() {
   const scrollToTop = () => {
@@ -14,8 +14,13 @@ function Home() {
   };
 
   return (
-    <div className="whole-home">
-      <Navbar />
+    <motion.div 
+      className="whole-home"
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+    >
+      {/* <Navbar /> */}
       <div className="home-container">
         <div className="home-card">
           <h2>Hi, I'm Arav!</h2>
@@ -43,7 +48,7 @@ function Home() {
         </div>
         <Footer />
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
 import './contact.css';
+import {motion} from 'framer-motion';
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState('');
@@ -29,8 +30,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="whole-home">
-      <Navbar />
+    <motion.div 
+      className="whole-home"
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+    >
+      {/* <Navbar /> */}
       <div className="contact-page">
         <div className="contact-container">
           <h2>Contact Me</h2>
@@ -53,7 +59,7 @@ const Contact = () => {
         </div>
         <Footer />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
