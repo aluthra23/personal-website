@@ -9,7 +9,7 @@
 .social-card-group {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Adjust the gap between social cards */
+  row-gap: 30px; /* Adjust the gap between social cards */
   flex-wrap: wrap; /* Allow cards to wrap to next line if space is limited */
 }
   
@@ -43,7 +43,7 @@
 /* Media queries for responsiveness */
 @media only screen and (max-width: 600px) {
   .social-card-group {
-    gap: 10px; /* Reduce gap between social cards for smaller screens */
+    gap: 20px; /* Reduce gap between social cards for smaller screens */
   }
   
   .social-link {

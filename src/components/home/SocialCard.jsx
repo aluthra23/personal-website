@@ -6,7 +6,7 @@ const SocialCard = ({ icon, link }) => {
   return (
     <div className="social-card">
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <img src={icon} alt={name} className="social-icon" />
+        <img src={icon} className="social-icon" />
       </a>
     </div>
   );

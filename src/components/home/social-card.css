@@ -14,8 +14,8 @@
 }
 
 .social-icon {
-  width: 120px; /* Adjust the width and height as needed */
-  height: 120px;
+  width: 100px; /* Adjust the width and height as needed */
+  height: 100px;
   margin: 0 auto; /* Center the icon */
   display: block;
 }
@@ -23,8 +23,8 @@
 /* Media queries for responsiveness */
 @media only screen and (max-width: 600px) {
   .social-icon {
-    width: 70px; /* Decrease icon size for smaller screens */
-    height: 70px; /* Decrease icon size for smaller screens */
+    width: 80px; /* Decrease icon size for smaller screens */
+    height: 80px; /* Decrease icon size for smaller screens */
   }
 
   .social-card h3 {
