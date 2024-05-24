@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './navbar.css'; // Correctly import navbar CSS
+import { Link, useLocation } from 'react-router-dom';
+import './navbar.css'; 
 import { getImageUrl } from '../../utils';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation(); // Get the current location
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'instant' }); // Smooth scroll to the top of the page
@@ -33,32 +34,32 @@ function Navbar() {
             scrollToTop(); // Scroll to top when a menu item is clicked
           }}
         >
-          <li>
+          <li className={location.pathname === '/personal-website/' ? 'active' : ''}>
             <Link to="/personal-website/" onClick={scrollToTop}>
               Home
             </Link>
           </li>
-          <li>
+          <li className={location.pathname === '/personal-website/education' ? 'active' : ''}>
             <Link to="/personal-website/education" onClick={scrollToTop}>
               Education
             </Link>
           </li>
-          <li>
+          <li className={location.pathname === '/personal-website/skills' ? 'active' : ''}>
             <Link to="/personal-website/skills" onClick={scrollToTop}>
               Skills
             </Link>
           </li>
-          <li>
+          <li className={location.pathname === '/personal-website/experience' ? 'active' : ''}>
             <Link to="/personal-website/experience" onClick={scrollToTop}>
               Experience
             </Link>
           </li>
-          <li>
+          <li className={location.pathname === '/personal-website/projects' ? 'active' : ''}>
             <Link to="/personal-website/projects" onClick={scrollToTop}>
               Projects
             </Link>
           </li>
-          <li>
+          <li className={location.pathname === '/personal-website/contact' ? 'active' : ''}>
             <Link to="/personal-website/contact" onClick={scrollToTop}>
               Contact Me
             </Link>

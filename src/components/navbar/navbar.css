@@ -103,3 +103,11 @@ nav ul li a:hover {
     z-index: 1;
   }
 }
+
+
+/* src/css/navbar.css */
+
+nav ul li a.active, nav ul li.active a {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
