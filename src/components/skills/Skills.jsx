@@ -115,7 +115,7 @@ const Skills = () => {
               />
               <SkillCard
                 title="Flask"
-                description="Proficient in Flask for web development and deployment. Developed the backend for the wAIste App (an app I built), managing API endpoints and integrating AI/ML models for waste categorization. Experienced in server configuration and optimizing application performance."
+                description="Proficient in Flask for web development and deployment. Developed the backend for the wAIste App (an app I built), managing API endpoints and integrating AI/ML models. Experienced in server configuration and optimizing application performance."
                 level="Intermediate"
                 logo={getImageUrl('Flask_Logo.png')}// Replace with actual logo link
               />
