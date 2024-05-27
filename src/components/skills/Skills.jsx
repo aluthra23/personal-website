@@ -25,7 +25,7 @@ const Skills = () => {
             <div className="skill-card-group">
               <SkillCard
                 title="Python"
-                description="Experienced in Python programming language with libraries such as NumPy, Pandas, Matplotlib, and Seaborn."
+                description="Experienced in Python programming language with libraries such as NumPy, Pandas, Matplotlib, Seaborn, Beautiful Soup, and Requests."
                 level="Intermediate"
                 logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" // Replace with actual logo link
               />
@@ -115,7 +115,7 @@ const Skills = () => {
               />
               <SkillCard
                 title="Flask"
-                description="Experienced in building web applications using Flask framework."
+                description="Proficient in Flask for web development and deployment. Developed the backend for the wAIste App (an app I built), managing API endpoints and integrating AI/ML models for waste categorization. Experienced in server configuration and optimizing application performance."
                 level="Intermediate"
                 logo={getImageUrl('Flask_Logo.png')}// Replace with actual logo link
               />
