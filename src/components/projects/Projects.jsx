@@ -1,12 +1,12 @@
 // src/components/projects/Projects.jsx
 import React from 'react';
-import Navbar from '../navbar/Navbar';
-import Waiste from './my_projects/Waiste'
+import Waiste from './my_projects/Waiste';
 import StockMarketPrediction from './my_projects/StockMarketPrediction';
-import MyWebsite from './my_projects/MyWebsite'
+import MyWebsite from './my_projects/MyWebsite';
 import WebScraper from './my_projects/WebScraper';
+import UMDScheduleWebScraper from './my_projects/UMDScheduleWebScraper';
 import './projects.css'; // Import Projects-specific CSS
-import Footer from '../footer/Footer'
+import Footer from '../footer/Footer';
 import {motion} from 'framer-motion';
 
 const Projects = () => {
@@ -24,10 +24,11 @@ const Projects = () => {
           <div className="github-link">
             <a href="https://github.com/aluthra23" className='project-link' target="_blank">Visit my GitHub Profile</a>
           </div>
+          <UMDScheduleWebScraper />
           <Waiste />
           <MyWebsite/>
           <StockMarketPrediction />
-          <WebScraper />
+          {/* <WebScraper /> */}
         </div>
         <Footer/>
       </div>
