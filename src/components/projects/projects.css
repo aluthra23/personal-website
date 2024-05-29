@@ -12,8 +12,7 @@
 }
 
 .projects-content {
-  width: fit-content;
-  max-width: 90%; /* Allow some margin on mobile devices */
+  max-width: 800px;
   padding: 20px;
 }
 
@@ -43,8 +42,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
-  width: fit-content;
-  max-width: 100%;
+  position: relative;
 }
 
 .project-card a {
@@ -155,7 +153,11 @@
     padding-top: 120px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 100%; /* Ensure it takes the full width on mobile */
+    width: fit-content;
+  }
+
+  .projects-content {
+    width: fit-content;
   }
 
   .projects-title {
@@ -170,11 +172,7 @@
     font-size: 1.5em;
   }
 
-  .project-description,
-  .project-features,
-  .project-model-list,
-  .project-steps,
-  .project-link-list {
+  .project-description, .project-features, .project-model-list, .project-steps, .project-link-list {
     font-size: 1em;
   }
 
@@ -193,7 +191,6 @@
   }
 
   .project-card {
-    width: 100%; /* Ensure it takes the full width on mobile */
     padding: 15px;
     margin-bottom: 20px;
   }
@@ -202,15 +199,9 @@
     font-size: 1.4em;
   }
 
-  .projects-content {
-    width: 100%; /* Ensure it takes the full width on mobile */
-    max-width: 100%;
-    padding: 20px;
-  }
-
   .project-video img {
-    max-width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* max-width: 60%; */
+    display: none;
   }
+  
 }
