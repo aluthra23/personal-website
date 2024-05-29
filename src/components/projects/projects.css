@@ -154,11 +154,13 @@
     padding-top: 120px;
     padding-left: 10px;
     padding-right: 10px;
+    align-items: center;
     /* max-width: 80%; */
   }
 
   .projects-content {
-    /* width: 75%; */
+    width: 75%;
+    align-items: center;
     max-width: 75%;
   }
 
@@ -196,6 +198,7 @@
   .project-card {
     padding: 15px;
     margin-bottom: 20px;
+    align-items: center;
   }
 
   .features-title, .server-title {
