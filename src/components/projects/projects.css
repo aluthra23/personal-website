@@ -46,7 +46,7 @@
 }
 
 .project-card a {
-  color: vars(--tertiary-color);
+  color: var(--tertiary-color);
 }
 
 .project-header {
@@ -66,7 +66,7 @@
 }
 
 .project-icons svg {
-  font-size: 1.em;
+  font-size: 1em;
   color: var(--icon-color);
 }
 
@@ -151,10 +151,25 @@
 @media only screen and (max-width: 600px) {
   .projects-container {
     padding-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* width: 1%; */
   }
 
-  .project-icons svg {
-    font-size: 1em; /* Reduce icon size */
+  .projects-title {
+    font-size: 2em;
+  }
+
+  .github-link a {
+    font-size: 1em;
+  }
+
+  .project-title {
+    font-size: 1.5em;
+  }
+
+  .project-description, .project-features, .project-model-list, .project-steps, .project-link-list {
+    font-size: 1em;
   }
 
   .project-icons {
@@ -164,9 +179,19 @@
 
   .project-icons svg {
     flex: 0 0 20%; /* Make icons take up 20% of container width (5 icons per row) */
+    margin-right: 5px; /* Add small margin between icons */
   }
 
   .project-icons svg:not(:last-child) {
     margin-right: 0; /* Remove right margin for icons in the last column */
+  }
+
+  .project-card {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .features-title, .server-title {
+    font-size: 1.4em;
   }
 }
