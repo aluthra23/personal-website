@@ -3,6 +3,7 @@
 import React from 'react';
 import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaGithub } from '../../../../node_modules/react-icons/fa';
 import { SiGit } from '../../../../node_modules/react-icons/si';
+import '../projects.css'
 
 const MyWebsite = () => {
   return (

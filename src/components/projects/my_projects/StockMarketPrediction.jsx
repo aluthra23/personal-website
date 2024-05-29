@@ -1,5 +1,6 @@
 // src/components/projects/my_projects/StockMarketPrediction.jsx
 
+import '../projects.css'
 import React from 'react';
 import { FaPython } from 'react-icons/fa';
 import { SiTensorflow, SiJupyter } from 'react-icons/si';

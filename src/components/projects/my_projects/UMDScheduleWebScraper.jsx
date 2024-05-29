@@ -1,5 +1,6 @@
 // src/components/projects/my_projects/UMDScheduleWebScraper.jsx
 
+import '../projects.css'
 import React from 'react';
 
 const UMDScheduleWebScraper = () => {

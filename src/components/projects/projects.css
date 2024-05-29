@@ -194,4 +194,13 @@
   .features-title, .server-title {
     font-size: 1.4em;
   }
+  .projects-content {
+    max-width: fit-content;
+    padding: 20px;
+  }
+
+
+.project-video img {
+  max-width: 80%;
+}
 }
