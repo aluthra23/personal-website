@@ -25,7 +25,7 @@ const Skills = () => {
             <div className="skill-card-group">
               <SkillCard
                 title="Python"
-                description="Experienced in Python programming language with libraries such as NumPy, Pandas, Matplotlib, Seaborn, Beautiful Soup, and Requests."
+                description="Experienced in Python programming language with libraries such as NumPy, Pandas, Matplotlib, Seaborn, Beautiful Soup, and csv."
                 level="Intermediate"
                 logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" // Replace with actual logo link
               />
