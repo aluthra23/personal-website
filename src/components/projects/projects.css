@@ -13,7 +13,7 @@
 
 .projects-content {
   width: fit-content;
-  max-width: 800px;
+  max-width: 90%; /* Allow some margin on mobile devices */
   padding: 20px;
 }
 
@@ -155,6 +155,7 @@
     padding-top: 120px;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100%; /* Ensure it takes the full width on mobile */
   }
 
   .projects-title {
@@ -169,7 +170,11 @@
     font-size: 1.5em;
   }
 
-  .project-description, .project-features, .project-model-list, .project-steps, .project-link-list {
+  .project-description,
+  .project-features,
+  .project-model-list,
+  .project-steps,
+  .project-link-list {
     font-size: 1em;
   }
 
@@ -188,7 +193,7 @@
   }
 
   .project-card {
-    width: fit-content;
+    width: 100%; /* Ensure it takes the full width on mobile */
     padding: 15px;
     margin-bottom: 20px;
   }
@@ -198,7 +203,7 @@
   }
 
   .projects-content {
-    width: fit-content;
+    width: 100%; /* Ensure it takes the full width on mobile */
     max-width: 100%;
     padding: 20px;
   }
