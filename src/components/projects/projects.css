@@ -200,7 +200,7 @@
   }
 
 
-.project-video img {
-  max-width: 80%;
-}
+  .project-video img {
+    max-width: 100%;
+  }
 }
