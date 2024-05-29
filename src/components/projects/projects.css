@@ -1,7 +1,8 @@
 /* src/css/projects/projects.css */
 
+
 .projects-container {
-  position: static;
+  /* position: static; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,8 +44,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   position: relative;
-  box-sizing: border-box;
-  word-wrap: break-word;
 }
 
 .project-card a {
@@ -152,23 +151,30 @@
 /* Media queries for responsiveness */
 
 @media only screen and (max-width: 600px) {
+
   .projects-container {
     padding-top: 120px;
     padding-left: 10px;
     padding-right: 10px;
     align-items: center;
     /* max-width: 80%; */
+    word-wrap: break-word;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+
   }
 
   .projects-content {
-    width: 75%;
+    /* width: 75%; */
     align-items: center;
     max-width: 75%;
+    overflow-x: hidden;
     box-sizing: border-box;
   }
 
   .projects-title {
     font-size: 2em;
+    box-sizing: border-box;
   }
 
   .github-link a {
@@ -180,9 +186,11 @@
   }
 
   .project-description, .project-features, .project-model-list, .project-steps, .project-link-list {
-    /* width: fit-content; */
-    word-wrap: break-word;
     font-size: 1em;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
   }
 
   /* .project-icons {
@@ -203,6 +211,9 @@
     padding: 15px;
     margin-bottom: 20px;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;;
   }
 
   .features-title, .server-title {
@@ -213,5 +224,4 @@
     max-width: 60%;
     /* display: none; */
   }
-  
 }
