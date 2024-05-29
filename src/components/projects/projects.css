@@ -60,7 +60,7 @@
   margin-bottom: 15px;
 }
 
-.project-icons {
+/* .project-icons {
   display: flex;
   gap: 15px;
 }
@@ -68,7 +68,7 @@
 .project-icons svg {
   font-size: 1em;
   color: var(--icon-color);
-}
+} */
 
 .features-title, .server-title {
   font-size: 1.5em;
@@ -176,19 +176,19 @@
     font-size: 1em;
   }
 
-  .project-icons {
-    flex-wrap: wrap; /* Allow icons to wrap to next line */
-    justify-content: center; /* Center align icons */
+  /* .project-icons {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .project-icons svg {
-    flex: 0 0 20%; /* Make icons take up 20% of container width (5 icons per row) */
-    margin-right: 5px; /* Add small margin between icons */
+    flex: 0 0 20%;
+    margin-right: 5px;
   }
 
   .project-icons svg:not(:last-child) {
-    margin-right: 0; /* Remove right margin for icons in the last column */
-  }
+    margin-right: 0;
+  } */
 
   .project-card {
     padding: 15px;
@@ -200,8 +200,8 @@
   }
 
   .project-video img {
-    /* max-width: 60%; */
-    display: none;
+    max-width: 60%;
+    /* display: none; */
   }
   
 }
