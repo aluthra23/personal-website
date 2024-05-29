@@ -43,6 +43,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   position: relative;
+  box-sizing: border-box;
+  word-wrap: break-word;
 }
 
 .project-card a {
@@ -162,6 +164,7 @@
     width: 75%;
     align-items: center;
     max-width: 75%;
+    box-sizing: border-box;
   }
 
   .projects-title {
@@ -177,7 +180,8 @@
   }
 
   .project-description, .project-features, .project-model-list, .project-steps, .project-link-list {
-    width: fit-content;
+    /* width: fit-content; */
+    word-wrap: break-word;
     font-size: 1em;
   }
 
