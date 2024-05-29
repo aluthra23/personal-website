@@ -224,4 +224,10 @@
     max-width: 60%;
     /* display: none; */
   }
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+
 }
