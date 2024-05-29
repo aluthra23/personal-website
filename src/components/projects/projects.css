@@ -12,6 +12,7 @@
 }
 
 .projects-content {
+  width: fit-content;
   max-width: 800px;
   padding: 20px;
 }
@@ -42,7 +43,8 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
-  position: relative;
+  width: fit-content;
+  max-width: 100%;
 }
 
 .project-card a {
@@ -153,7 +155,6 @@
     padding-top: 120px;
     padding-left: 10px;
     padding-right: 10px;
-    width: fit-content;
   }
 
   .projects-title {
@@ -187,7 +188,7 @@
   }
 
   .project-card {
-    width:fit-content;
+    width: fit-content;
     padding: 15px;
     margin-bottom: 20px;
   }
@@ -195,8 +196,10 @@
   .features-title, .server-title {
     font-size: 1.4em;
   }
+
   .projects-content {
-    max-width: fit-content;
+    width: fit-content;
+    max-width: 100%;
     padding: 20px;
   }
 
@@ -204,5 +207,5 @@
     max-width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }  
+  }
 }
