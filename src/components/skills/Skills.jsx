@@ -26,13 +26,13 @@ const Skills = () => {
               <SkillCard
                 title="Python"
                 description="Experienced in Python programming language with libraries such as NumPy, Pandas, Matplotlib, Seaborn, Beautiful Soup, and csv."
-                level="Intermediate"
+                level="Advanced"
                 logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" // Replace with actual logo link
               />
               <SkillCard
                 title="Java"
                 description="Proficient in Java programming language and Object-Oriented Programming."
-                level="Intermediate"
+                level="Advanced"
                 logo="https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png" // Replace with actual logo link
               />
               <SkillCard
@@ -56,13 +56,13 @@ const Skills = () => {
               <SkillCard
                 title="Unix/Linux"
                 description="Proficient in Unix/Linux operating systems, including system administration and shell scripting."
-                level="Intermediate"
+                level="Advanced"
                 logo="https://1000logos.net/wp-content/uploads/2017/03/LINUX-LOGO.png"
               />
               <SkillCard
                 title="Bash Scripting"
                 description="Experienced in writing Bash scripts for automating tasks and managing system operations."
-                level="Intermediate"
+                level="Advanced"
                 logo="https://cdn3.brettterpstra.com/uploads/2015/02/terminal-longshadow.png"
               />
               <SkillCard
@@ -110,7 +110,7 @@ const Skills = () => {
               <SkillCard
                 title="x86-64 Assembly"
                 description="Skilled in x86-64 Assembly language programming, with a strong understanding of low-level hardware manipulation, instruction set architecture, and performance optimization techniques"
-                level="Intermediate"
+                level="Advanced"
                 logo="https://whiteout2.gallerycdn.vsassets.io/extensions/whiteout2/x86/0.4.2/1639429284758/Microsoft.VisualStudio.Services.Icons.Default" // Replace with actual logo link
               />
               <SkillCard
@@ -124,13 +124,13 @@ const Skills = () => {
                 description="Proficient in networking concepts and configuring containers and virtual machines, with hands-on experience building containers for Honeypot projects. Designed a Honeypot Research Project to explore cybersecurity threats and vulnerabilities, investigating how attackers’ behaviors and interactions vary when encountering a high-interaction honeypot with rotating US bank names.
                 
                 https://shorturl.at/aXC5M"
-                level="Intermediate"
+                level="Advanced"
                 logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Linux_Containers_logo.svg/1200px-Linux_Containers_logo.svg.png" 
               />
               <SkillCard
                 title="VM Networking"
                 description="Experienced in networking concepts and configuration for containers and virtual machines. Enriched by coursework in ACES LLP, where I gained familiarity with iptable rules, 1:1 NAT Mapping, Linux Services, Port Scanning, Packet Capture, Firewall configurations, Task Scheduling, Keyloggers, Man-in-the-middle attacks, and Crontab management."
-                level="Intermediate"
+                level="Advanced"
                 logo="https://static-00.iconduck.com/assets.00/virtual-machines-icon-2048x1856-qvhgz3ou.png"
               />
               {/* Add other computer science skills */}
