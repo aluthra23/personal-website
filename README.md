@@ -21,17 +21,6 @@ This website serves as a showcase of my skills, projects, and experiences. It pr
 - **Projects Page:** Showcase of my notable projects with descriptions and links.
 - **Contact Page:** Form for visitors to contact me directly.
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/aluthra23/personal-website.git
-   cd your-repo
-   npm install
-   npm run dev
-
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
