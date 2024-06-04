@@ -8,6 +8,7 @@ import UMDScheduleWebScraper from './my_projects/UMDScheduleWebScraper';
 import './projects.css'; // Import Projects-specific CSS
 import Footer from '../footer/Footer';
 import {motion} from 'framer-motion';
+import UMD_ChatBot from './my_projects/UMD_ChatBot';
 
 const Projects = () => {
   return (
@@ -24,6 +25,7 @@ const Projects = () => {
           <div className="github-link">
             <a href="https://github.com/aluthra23" className='project-link' target="_blank">Visit my GitHub Profile</a>
           </div>
+          <UMD_ChatBot />
           <UMDScheduleWebScraper />
           <Waiste />
           <MyWebsite/>
