@@ -10,7 +10,7 @@ const UMD_ChatBot = () => {
     <div className="project-header">
       <h3 className="project-title">UMD Scheduling Chatbot</h3>
     </div>
-    <p className="project-description">The <strong>UMD Scheduling Chatbot</strong> is an AI-powered assistant designed to help students at the University of Maryland find detailed information about courses and schedules. This project leverages OpenAI's GPT-4o model and a custom vector store built with FAISS to provide accurate and timely responses to user queries about UMD classes.</p>
+    <p className="project-description">The <a href="https://umd-chat-bot.streamlit.app/" target="_blank" rel="noopener noreferrer"><strong>UMD Scheduling Chatbot</strong></a> is an AI-powered assistant designed to help students at the University of Maryland find detailed information about courses and schedules. This project leverages OpenAI's GPT-4o model and a custom vector store built with FAISS to provide accurate and timely responses to user queries about UMD classes.</p>
     <div className="project-video">
       <a href="https://youtu.be/KEKWtafWjeQ" target="_blank" rel="noopener noreferrer">
         <img src="https://img.youtube.com/vi/KEKWtafWjeQ/0.jpg" alt="wAIste Demo" />
@@ -21,7 +21,7 @@ const UMD_ChatBot = () => {
     <ul className="project-features">
       <li><strong>Course Recommendations:</strong> Get recommendations for courses and instructors based on your preferences.</li>
       <li><strong>Dynamic Data Updates:</strong> The vector store updates automatically with the latest scheduling information to ensure the chatbot provides accurate answers.</li>
-      <li><strong>Efficient Information Retrieval:</strong>Utilizes a vector store for fast and efficient similarity searches.</li>
+      <li><strong>Efficient Information Retrieval:</strong> Utilizes a vector store for fast and efficient similarity searches.</li>
     </ul>
 
     <h4 className="features-title">Technologies Used:</h4>
@@ -33,6 +33,9 @@ const UMD_ChatBot = () => {
       <li><strong>FAISS (Facebook AI Similarity Search):</strong>Used to build and manage the vector store for efficient information retrieval.</li>
     </ul>
     
+    <div className="project-link">
+        <a href="https://umd-chat-bot.streamlit.app/" target="_blank" rel="noopener noreferrer">Visit my Chat Bot here</a>
+    </div>
     <div className="project-link">
       <a href="https://github.com/aluthra23/UMD-Scheduling-Chat-Bot" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
     </div>
