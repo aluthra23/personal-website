@@ -28,7 +28,7 @@ const Socials = () => {
         />
         <SocialCard
           icon="https://pngimg.com/d/cv_PNG30.png"
-          link="https://drive.google.com/file/d/1fEWvJ35M5OEszrZHeVMzM3Oc3bNkoUf-/view"
+          link="https://drive.google.com/file/d/15faz94K8thcfpLCWtQE_YuhV_9g6zxko/view?usp=sharing"
         />
         {/* Add other social media platforms */}
       </div>
