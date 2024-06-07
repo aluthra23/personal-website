@@ -39,7 +39,7 @@ function Home() {
         <div className="about-me-card">
           <h2>About Me</h2>
           <div className="about-me-content">
-            <p>Highly motivated Rising College Freshman with a brilliant academic record who demonstrates a strong work ethic, creative ability, a positive attitude, and excellent problem-solving skills. Currently pursuing a Bachelor’s degree in Computer Science at the University of Maryland and its ACES (Advanced Cybersecurity Experience for Students) Honors College. Seeking a Software Engineering internship.</p>
+            <p>Highly motivated Rising College Sophomore with a brilliant academic record who demonstrates a strong work ethic, creative ability, a positive attitude, and excellent problem-solving skills. Currently pursuing a Bachelor’s degree in Computer Science at the University of Maryland and its ACES (Advanced Cybersecurity Experience for Students) Honors College. Seeking a Software Engineering internship.</p>
           </div>
         </div>
 
