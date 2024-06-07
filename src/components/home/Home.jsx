@@ -27,7 +27,7 @@ function Home() {
           <div className="home-content">
             <div className='bio-text'>
               <img src={AravImage} alt="Arav Luthra" className="profile-image" />
-              <p>Freshman at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a> and <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a></p>
+              <p>Rising Sophomore at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a> and <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a></p>
             </div>
             <div className='contact-text'>
               <Link to='/personal-website/contact' className="contact-button" onClick={scrollToTop}>
