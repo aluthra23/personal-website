@@ -144,6 +144,18 @@ const Skills = () => {
                 logo={getImageUrl('Flask_Logo.png')}
               />
               <SkillCard
+                title="FastAPI"
+                description="Experienced in FastAPI for building fast and scalable web APIs with Python. Currently developing an API that scrapes and returns UMD course data"
+                level="Learning"
+                logo="https://cdn.worldvectorlogo.com/logos/fastapi.svg"
+              />
+              <SkillCard
+                title="RESTful APIs"
+                description="Experienced in building RESTful APIs for web and mobile applications, including authentication, data retrieval, and data manipulation."
+                level="Intermediate"
+                logo="https://cdn-icons-png.flaticon.com/256/2164/2164832.png"
+              />
+              <SkillCard
                 title="LXC Networking"
                 description="Proficient in networking concepts and configuring containers and virtual machines, with hands-on experience building containers for Honeypot projects. Designed a Honeypot Research Project to explore cybersecurity threats and vulnerabilities, investigating how attackers’ behaviors and interactions vary when encountering a high-interaction honeypot with rotating US bank names.
                 https://shorturl.at/aXC5M"
