@@ -3,7 +3,7 @@ import React from 'react';
 import Waiste from './my_projects/Waiste';
 import StockMarketPrediction from './my_projects/StockMarketPrediction';
 import MyWebsite from './my_projects/MyWebsite';
-import WebScraper from './my_projects/WebScraper';
+import UpcomingProjects from './my_projects/UpcomingProjects';
 import UMDScheduleWebScraper from './my_projects/UMDScheduleWebScraper';
 import './projects.css'; // Import Projects-specific CSS
 import Footer from '../footer/Footer';
@@ -26,13 +26,13 @@ const Projects = () => {
           <div className="github-link">
             <a href="https://github.com/aluthra23" className='project-link' target="_blank">Visit my GitHub Profile</a>
           </div>
+          <UMD_API />
           <UMD_ChatBot />
           <UMDScheduleWebScraper />
           <Waiste />
           <MyWebsite/>
           <StockMarketPrediction />
-          <UMD_API />
-          {/* <WebScraper /> */}
+          {/* <UpcomingProjects /> */}
         </div>
         <Footer/>
       </div>

@@ -1,7 +1,7 @@
 // src/components/projects/Project3.jsx
 import React from 'react';
 
-const WebScraper = () => {
+const UpcomingProjects = () => {
   return (
     <div className="project-card">
       <h3 className="project-title">UPCOMING: A WEBSCRAPER!</h3>
@@ -13,4 +13,4 @@ const WebScraper = () => {
   );
 };
 
-export default WebScraper;
+export default UpcomingProjects;
