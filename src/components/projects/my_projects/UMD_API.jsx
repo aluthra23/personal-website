@@ -39,7 +39,7 @@ const UMDCoursesAPI = () => {
         <li>List course prefixes: <code>/v1/course_prefixes</code></li>
       </ul>
       <p className="project-description">
-        This API is deployed on Koyeb, a platform that supports continuous integration and continuous deployment (CI/CD). This allows for routine updates to the project, ensuring that the API remains up-to-date with the latest data and features. The deployment on Koyeb also makes the API accessible at any time.
+        This API is deployed on <a href="https://www.koyeb.com//" target="_blank" rel="noopener noreferrer">Koyeb</a>, a platform that supports continuous integration and continuous deployment (CI/CD). This allows for routine updates to the project, ensuring that the API remains up-to-date with the latest data and features. The deployment on Koyeb also makes the API accessible at any time.
       </p>
       <p className="project-description">
         All endpoints are prefixed with <code>/v1</code> to standardize access. This prefix will be updated with future versions to reflect ongoing improvements and updates. The current version is 1.0.0, marking the initial release. Subsequent updates to the API and the README will be documented with each new version.
