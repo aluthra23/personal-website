@@ -32,7 +32,7 @@ const Projects = () => {
           <Waiste />
           <MyWebsite/>
           <StockMarketPrediction />
-          {/* <UpcomingProjects /> */}
+          <UpcomingProjects />
         </div>
         <Footer/>
       </div>
