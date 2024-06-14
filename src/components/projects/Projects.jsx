@@ -26,13 +26,13 @@ const Projects = () => {
           <div className="github-link">
             <a href="https://github.com/aluthra23" className='project-link' target="_blank">Visit my GitHub Profile</a>
           </div>
+          <UpcomingProjects />
           <UMD_API />
           <UMD_ChatBot />
           <UMDScheduleWebScraper />
           <Waiste />
           <MyWebsite/>
           <StockMarketPrediction />
-          <UpcomingProjects />
         </div>
         <Footer/>
       </div>
