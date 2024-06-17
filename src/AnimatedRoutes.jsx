@@ -8,7 +8,6 @@ import Contact from './components/contact/Contact';
 import NotFound from './components/NotFound'; // Import the NotFound component
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import BrowserRouter, Routes, and Route
 import Navbar from './components/navbar/Navbar';
-import Footer from './components/footer/Footer';
 
 import {AnimatePresence} from 'framer-motion'
 

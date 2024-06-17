@@ -1,6 +1,5 @@
 // src/components/skills/Skills.jsx 
 import React from 'react';
-import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
 import SkillCard from './SkillCard';
 import './skills.css';

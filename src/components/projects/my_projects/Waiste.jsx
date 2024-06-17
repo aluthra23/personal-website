@@ -1,8 +1,6 @@
 // src/components/projects/my_projects/Waiste.jsx
 
 import React from 'react';
-import { FaPython, FaGithub } from '../../../../node_modules/react-icons/fa';
-import { SiFlutter, SiDart, SiFlask, SiSwift, SiRuby, SiGit } from '../../../../node_modules/react-icons/si';
 import '../projects.css'
 
 const Waiste = () => {

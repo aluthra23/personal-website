@@ -2,8 +2,6 @@
 import React from 'react';
 import './socials.css'; // Import Socials-specific CSS
 import SocialCard from './SocialCard'; // Import the SocialCard component
-import { Link } from 'react-router-dom';
-import Resume from '../../assets/Resume.pdf'; // Import the image
 
 const Socials = () => {
   return (

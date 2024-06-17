@@ -1,7 +1,6 @@
 // src/components/home/Home.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
 import './home.css'; // Import Home-specific CSS
 import AravImage from '../../assets/Arav_Image.jpg'; // Import the image

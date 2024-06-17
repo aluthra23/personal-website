@@ -7,7 +7,7 @@ import UpcomingProjects from './my_projects/UpcomingProjects';
 import UMDScheduleWebScraper from './my_projects/UMDScheduleWebScraper';
 import './projects.css'; // Import Projects-specific CSS
 import Footer from '../footer/Footer';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 import UMD_ChatBot from './my_projects/UMD_ChatBot';
 import UMD_API from './my_projects/UMD_API';
 

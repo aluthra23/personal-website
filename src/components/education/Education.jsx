@@ -1,6 +1,5 @@
 // src/components/Education.jsx
 import React from 'react';
-import Navbar from '../navbar/Navbar'; // Import Navbar
 import Footer from '../footer/Footer';
 import Umd from './my_schools/Umd'; // Import Umd component
 import HighSchool from './my_schools/HighSchool';

@@ -1,6 +1,5 @@
 // src/components/experience/Experience.jsx
 import React from 'react';
-import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
 import TKDesign from './my_work/TKDesign';
 import './experience.css'; // Import Education-specific CSS
