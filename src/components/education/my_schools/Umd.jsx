@@ -12,8 +12,8 @@ const Umd = () => {
       />
       <p className="education-details">University of Maryland, College Park</p>
       <p className="education-details">2023-2027</p>
-      <p className="education-details">Grade: Freshman</p>
-      <p className="education-details">Activities and societies: Advanced Cybersecurity Experience for Students (Honors College)</p>
+      <p className="education-details">Grade: Sophomore</p>
+      <p className="education-details">Member of the Advanced Cybersecurity Experience for Students (ACES) program and UMD Honors College</p>
       <p className="education-details">GPA: 4.0/4.0</p>
       <h4 className="education-subtitle">Courses and Skills:</h4>
       <ul className="education-courses">
