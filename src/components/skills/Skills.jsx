@@ -1,9 +1,7 @@
 // src/components/skills/Skills.jsx 
 import React from 'react';
 import Footer from '../footer/Footer';
-import SkillCard from './SkillCard';
 import './skills.css';
-import { getImageUrl } from '../../utils';
 import {motion} from 'framer-motion';
 import General_CS_Skills from './skill_groups/General_CS_Skills';
 import CybersecuritySkills from './skill_groups/CybersecuritySkills';
@@ -26,13 +24,9 @@ const Skills = () => {
           <h2 className='skills-title'>Skills</h2>
 
           <General_CS_Skills/>
-
-          <CybersecuritySkills/>
-
-          <DataScienceSkills/>
-
           <SoftwareEngineeringSkills/>
-
+          <DataScienceSkills/>
+          <CybersecuritySkills/>
           <EngineeringSkills/>
 
         </div>
