@@ -1,6 +1,6 @@
 import React from 'react';
-import SkillCard from './SkillCard';
-import './skills.css';
+import SkillCard from '../SkillCard';
+import '../skills.css';
 
 const CybersecuritySkills = () => {
   return (

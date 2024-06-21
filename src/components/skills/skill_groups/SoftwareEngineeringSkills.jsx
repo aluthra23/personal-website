@@ -1,7 +1,7 @@
 import React from 'react';
-import SkillCard from './SkillCard';
-import './skills.css';
-import { getImageUrl } from '../../utils';
+import SkillCard from '../SkillCard';
+import '../skills.css';
+import { getImageUrl } from '../../../utils';
 
 const SoftwareEngineeringSkills = () => {
   return (

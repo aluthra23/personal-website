@@ -5,11 +5,11 @@ import SkillCard from './SkillCard';
 import './skills.css';
 import { getImageUrl } from '../../utils';
 import {motion} from 'framer-motion';
-import General_CS_Skills from './General_CS_Skills';
-import CybersecuritySkills from './CybersecuritySkills';
-import DataScienceSkills from './DataScienceSkills';
-import SoftwareEngineeringSkills from './SoftwareEngineeringSkills';
-import EngineeringSkills from './EngineeringSkills';
+import General_CS_Skills from './skill_groups/General_CS_Skills';
+import CybersecuritySkills from './skill_groups/CybersecuritySkills';
+import DataScienceSkills from './skill_groups/DataScienceSkills';
+import SoftwareEngineeringSkills from './skill_groups/SoftwareEngineeringSkills';
+import EngineeringSkills from './skill_groups/EngineeringSkills';
 
 const Skills = () => {
   return (
