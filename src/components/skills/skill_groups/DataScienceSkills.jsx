@@ -44,6 +44,12 @@ const DataScienceSkills = () => {
           logo="https://static-00.iconduck.com/assets.00/sql-database-generic-icon-1521x2048-d0vdpxpg.png"
         />
         <SkillCard
+          title="Tableau"
+          description="Experienced in Tableau for data visualization and dashboard creation."
+          level="Learning"
+          logo='https://billigence.com/wp-content/uploads/2022/08/2-1024x1024.png'
+        />
+        <SkillCard
           title="MATLAB"
           description="Experienced in MATLAB for numerical computing and data analysis."
           level="Intermediate"
