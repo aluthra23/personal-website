@@ -50,6 +50,12 @@ const General_CS_Skills = () => {
                 level="Intermediate"
                 logo="https://cdn-icons-png.flaticon.com/256/2164/2164832.png"
             />
+            <SkillCard
+                title="Docker"
+                description="Experienced in containerization using Docker for application deployment and running Microsoft SQL servers on my local machine."
+                level="Learning"
+                logo="https://static-00.iconduck.com/assets.00/docker-icon-2048x2048-5mc7mvtn.png"
+            />
         </div>
     </div>
   )
