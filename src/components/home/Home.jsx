@@ -65,7 +65,7 @@ function Home() {
       {/* <Navbar /> */}
       <div className="home-container">
         <div className="home-card">
-        <h1>{`Hi! I'm Arav Luthra, a `} <b><u>{text}</u></b></h1>
+        <h2>{`Hi! I'm Arav Luthra, a `} <b><u>{text}</u></b></h2>
           <div className="home-content">
             <div className='bio-text'>
               <img src={AravImage} alt="Arav Luthra" className="profile-image" />
