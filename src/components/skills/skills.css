@@ -20,6 +20,13 @@
   text-align: center;
 }
 
+/* src/components/skills/skills.css */
+
+.skills-section {
+  margin-bottom: 60px;
+}
+
+
 .skills-content {
   max-width: 800px;
   margin: 20px;
@@ -75,6 +82,34 @@
   margin-top: 0; /* Add margin-top to separate from the title */
 }
 
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 50px; /* Adjust this value to bring the button higher */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--primary-color);
+  color: var(--text-color-light);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px; /* Increase padding for a larger button */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  z-index: 1000; /* Ensure the button is on top */
+  color: black; /* Change text color to tertiary color */
+}
+
+.scroll-to-top-button:hover {
+  background-color: var(--secondary-color);
+}
+
+.skills-menu-title p{
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: var(--text-color-light);
+}
+
+
 /* Media queries for responsiveness */
 @media only screen and (max-width: 600px) {
   .skills-container {
@@ -93,4 +128,13 @@
   .skill-level {
     font-size: 0.9em; /* Decrease skill level font size for smaller screens */
   }
+
+  .skills-section {
+    margin-bottom: 20px; /* Adjust spacing for smaller screens */
+  }
+
+  .scroll-to-top-button {
+    /* padding: 5px 10px;  */
+  }
 }
+

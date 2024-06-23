@@ -1,0 +1,37 @@
+/* src/components/skills/skills-menu.css */
+
+.skills-menu {
+  background-color: var(--card-background);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  overflow-wrap: break-word;
+}
+
+
+.skills-menu-item {
+  margin-bottom: 10px;
+  color: var(--text-color-light);
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.skills-menu-item:hover {
+  color: var(--tertiary-color);
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .skills-menu {
+    flex-direction: column;
+  }
+}
