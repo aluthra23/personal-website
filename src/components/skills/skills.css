@@ -49,6 +49,10 @@
   margin-bottom: 40px;
 }
 
+.computer-science-skills {
+  margin-top: 40px;
+}
+
 .skill-card-group {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

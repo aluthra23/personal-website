@@ -55,7 +55,7 @@ const Skills = () => {
         <div className="skills-content">
           <h2 className='skills-title'>Skills</h2>
           <div className="skills-menu-title">
-            <p>Jump to</p>
+            <u><p>Jump to</p></u>
           </div>
           <SkillsMenu scrollToSection={scrollToSection} />
           {showScrollToTop && (

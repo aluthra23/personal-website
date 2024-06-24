@@ -1,15 +1,25 @@
 /* src/components/skills/skills-menu.css */
 
 .skills-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 100%;
+  gap: 20px;
+}
+
+.individual-skills-menu {
   background-color: var(--card-background);
-  padding: 10px 20px;
+  align-content: center;
+  width: fit-content;
+  padding: 5px 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 50px;
-  list-style: none;
-  display: flex;
+  /* margin-bottom: 50px; */
   align-items: center;
-  overflow-wrap: break-word;
+  flex-wrap: wrap;
 }
 
 
@@ -18,20 +28,35 @@
   color: var(--text-color-light);
   background: none;
   border: none;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
   transition: color 0.3s ease;
+  align-items: center;
 }
+
+.skills-menu-item a {
+  color: var(--tertiary-color);
+  padding: 5px 10px;
+  border-color: aqua;
+}
+
+.skill-category-color {
+  color: var(--tertiary-color);
+  border-radius: 0caps;
+  border-color: aqua;
+  padding: 5px 10px;
+  
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
 
 .skills-menu-item:hover {
   color: var(--tertiary-color);
 }
 
-/* Media queries for responsiveness */
-@media only screen and (max-width: 600px) {
-  .skills-menu {
-    flex-direction: column;
-  }
-}
