@@ -17,7 +17,7 @@
   text-align: center;
 }
 
-.bio-text a {
+.bio-text a , .about-me-content a{
   color: var(--tertiary-color);
 }
 

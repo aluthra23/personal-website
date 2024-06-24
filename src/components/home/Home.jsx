@@ -69,7 +69,7 @@ function Home() {
           <div className="home-content">
             <div className='bio-text'>
               <img src={AravImage} alt="Arav Luthra" className="profile-image" />
-              <p>Rising Sophomore at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a> and <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a></p>
+              <p>Rising Sophomore at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a> and a member of the <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College, pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a></p>
             </div>
             <div className='contact-text'>
               <Link to='/personal-website/contact' className="contact-button" onClick={scrollToTop}>
@@ -81,7 +81,11 @@ function Home() {
         <div className="about-me-card">
           <h2>About Me</h2>
           <div className="about-me-content">
-            <p>Highly motivated Rising College Sophomore with a brilliant academic record who demonstrates a strong work ethic, creative ability, a positive attitude, and excellent problem-solving skills. Currently pursuing a Bachelor’s degree in Computer Science at the University of Maryland and its ACES (Advanced Cybersecurity Experience for Students) Honors College. Seeking a Software Engineering internship.</p>
+            <p>
+              I am a highly motivated rising sophomore at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a>, pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a>, while being an active member of the <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College. 
+              With a strong academic record and a passion for technology, I consistently demonstrate a robust work ethic, creative problem-solving skills, and a positive attitude. 
+              I am eager to apply my knowledge and skills in a challenging Software Engineering internship, where I can contribute to innovative projects and further develop my expertise.
+            </p>
           </div>
         </div>
 
