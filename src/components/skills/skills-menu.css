@@ -14,7 +14,7 @@
   background-color: var(--card-background);
   align-content: center;
   width: fit-content;
-  padding: 5px 10px;
+  padding: 5px 2px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   /* margin-bottom: 50px; */
@@ -40,6 +40,10 @@
   color: var(--tertiary-color);
   padding: 5px 10px;
   border-color: aqua;
+}
+
+.skills-menu-item {
+  font-size: 20px;
 }
 
 .skill-category-color {
