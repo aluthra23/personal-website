@@ -4,18 +4,18 @@ import React from 'react';
 const Umd = () => {
   return (
     <div className="education-card">
-      <h3 className="education-title">Bachelor of Science in Computer Science and Mathematics</h3>
+      <h3 className="education-title">University of Maryland, College Park</h3>
       <img 
         src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/University_of_Maryland_seal.svg/640px-University_of_Maryland_seal.svg.png" 
         alt="University of Maryland Logo" 
         className="education-logo"
       />
-      <p className="education-details">University of Maryland, College Park</p>
+      <p className="education-details">Bachelor of Science in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a> (Double Major)</p>
       <p className="education-details">2023-2027</p>
       <p className="education-details">Grade: Sophomore</p>
-      <p className="education-details">Member of the Advanced Cybersecurity Experience for Students (ACES) program and UMD Honors College</p>
+      <p className="education-details">Member of the <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> program, which is part of the UMD Honors College system</p>
       <p className="education-details">GPA: 4.0/4.0</p>
-      <h4 className="education-subtitle">Courses and Skills:</h4>
+      <h4 className="education-subtitle">Courses:</h4>
       <ul className="education-courses">
         <li>CMSC132 (Object-Oriented Programming II): Developed data structure knowledge and refined Object-Oriented Programming skills</li>
         <li>STAT400 (Applied Probability and Statistics I): Enhanced analytical capabilities</li>
