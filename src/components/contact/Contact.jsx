@@ -42,15 +42,15 @@ const Contact = () => {
           <form className="contact-form" onSubmit={handleSubmit}>
             <label>
               Name:
-              <input type="text" name="name" required />
+              <input type="text" name="name" placeholder='Your Name' required />
             </label>
             <label>
               Email:
-              <input type="email" name="email" required />
+              <input type="email" name="email" placeholder="Your Email" required />
             </label>
             <label>
               Message:
-              <textarea name="message" rows="5" required></textarea>
+              <textarea name="message" rows="5" placeholder='Your Message' required></textarea>
             </label>
             <button type="submit">Send</button>
           </form>
