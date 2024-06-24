@@ -108,8 +108,4 @@
     font-size: 1.1em; /* Decrease font size for text content on smaller screens */
   }
 
-  .education-logo {
-    width: 150px;
-    /* max-width: 100%; */
-  }
 }
