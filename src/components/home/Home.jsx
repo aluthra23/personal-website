@@ -14,7 +14,7 @@ function Home() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to the top of the page
   };
-  const [loopNum, setLoopNum] = useState(0);
+  const [loopNum, setLoopNum] = useState(Math.floor(Math.random() * 3));
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
