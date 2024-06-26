@@ -1,7 +1,6 @@
-// src/components/projects/my_projects/UMDScheduleWebScraper.jsx
-
-import '../projects.css'
 import React from 'react';
+import '../projects.css';
+import LinkCard from '../LinkCard';
 
 const UMDScheduleWebScraper = () => {
   return (
@@ -13,7 +12,7 @@ const UMDScheduleWebScraper = () => {
         I developed this project to extract course information from the University of Maryland's <a href="https://academiccatalog.umd.edu/undergraduate/approved-courses/" target="_blank" rel="noopener noreferrer">Course Catalog</a> and <a href="https://app.testudo.umd.edu/soc/" target="_blank" rel="noopener noreferrer">Schedule of Classes</a> websites, and construct datasets with the data scraped about each UMD course.
       </p>
       <p className="project-description">
-      My inspiration for this came from a project idea related to UMD coursework and data analysis. However, I realized that I couldn't find any datasets related to UMD coursework particularly, so I decided to construct the datasets myself by developing webscrapers.
+        My inspiration for this came from a project idea related to UMD coursework and data analysis. However, I realized that I couldn't find any datasets related to UMD coursework particularly, so I decided to construct the datasets myself by developing web scrapers.
       </p>
       <h4 className="features-title">Datasets</h4>
       <p className="project-description">You can find the actual datasets on my <a href="https://github.com/aluthra23/UMD_Schedule_Web_Scraper/" target="_blank" rel="noopener noreferrer">GitHub Repository!</a></p>
@@ -37,8 +36,13 @@ const UMDScheduleWebScraper = () => {
       <p className="project-description">
         "Arav Luthra. UMD Schedule Web Scraper. https://github.com/aluthra23/UMD_Schedule_Web_Scraper/"
       </p>
-      <div className="project-link">
-        <a href="https://github.com/aluthra23/UMD_Schedule_Web_Scraper/" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+      <div className="project-links">
+        <LinkCard 
+          text="GitHub Repository" 
+          url="https://github.com/aluthra23/UMD_Schedule_Web_Scraper/" 
+          icon="https://www.svgrepo.com/show/475654/github-color.svg"
+          hoverColor="#444" 
+        />
       </div>
     </div>
   );

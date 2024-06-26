@@ -1,6 +1,10 @@
+// src/components/projects/UMDCoursesAPI.jsx
 import React from 'react';
+import LinkCard from '../LinkCard';
 import '../projects.css';
+import { rgb } from 'd3-color';
 
+// Import icons
 const UMDCoursesAPI = () => {
   return (
     <div className="project-card">
@@ -47,15 +51,22 @@ const UMDCoursesAPI = () => {
       <p className="project-description">
         This API does not require any authentication. However, please be respectful of the UMD websites and avoid overloading the API with too many requests.
       </p>
-
       <p className="project-description">
         You can access the Swagger documentation to see this API in action at <a href="https://umd-courses-api-aluthra-705eb647.koyeb.app/docs" target="_blank" rel="noopener noreferrer">/docs</a>.
       </p>
-      <div className="project-link">
-        <a href="https://umd-courses-api-aluthra-705eb647.koyeb.app/" target="_blank" rel="noopener noreferrer">Access the API</a>
-      </div>
-      <div className="project-link">
-        <a href="https://github.com/aluthra23/UMD-Courses-API" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+      <div className="project-links">
+        <LinkCard 
+          text="Access the API" 
+          url="https://umd-courses-api-aluthra-705eb647.koyeb.app/" 
+          icon="https://cdn-icons-png.flaticon.com/512/8681/8681370.png"
+          hoverColor="#FFD700" 
+        />
+        <LinkCard 
+          text="Access the GitHub Repository" 
+          url="https://github.com/aluthra23/UMD-Courses-API" 
+          icon="https://www.svgrepo.com/show/475654/github-color.svg"
+          hoverColor="#444"
+        />
       </div>
     </div>
   );

@@ -1,5 +1,12 @@
 /* src/css/projects/projects.css */
 
+/* src/components/projects.css */
+.project-links {
+  display: block;
+  width: 100%;
+}
+
+
 
 .projects-container {
   /* position: static; */

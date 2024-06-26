@@ -1,21 +1,14 @@
 // src/components/projects/my_projects/MyWebsite.jsx
 
 import React from 'react';
-import '../projects.css'
+import LinkCard from '../LinkCard';
+import '../projects.css';
 
 const MyWebsite = () => {
   return (
     <div className="project-card">
       <div className="project-header">
         <h3 className="project-title">Personal Portfolio Website</h3>
-        {/* <div className="project-icons">
-          <FaReact title="React.js" />
-          <FaHtml5 title="HTML5" />
-          <FaCss3Alt title="CSS3" />
-          <FaJsSquare title="JavaScript" />
-          <FaGithub title="GitHub" />
-          <SiGit title="Git" />
-        </div> */}
       </div>
       <p className="project-description">
         I developed a personal portfolio website to showcase my skills, projects, and experiences. The primary purpose of this website is to create a professional online presence, allowing potential employers, collaborators, and peers to easily view my work and get to know more about me. This project was my first foray into using React.js, and it has been an invaluable experience in modern web development practices.
@@ -43,11 +36,19 @@ const MyWebsite = () => {
       <p className="project-description">
         From a personal perspective, this project taught me the significance of attention to detail, particularly in ensuring cross-browser compatibility and performance optimization. I also developed a stronger sense of design aesthetics and usability, understanding how to create interfaces that are not only functional but also visually appealing. Moreover, working on this website allowed me to enhance my problem-solving skills, as I had to debug issues and implement solutions independently.
       </p>
-      <div className="project-link">
-        <a href="https://aluthra23.github.io/personal-website/" target="_blank" rel="noopener noreferrer">Visit My Personal Website</a>
-      </div>
-      <div className="project-link">
-        <a href="https://github.com/aluthra23/personal-website" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+      <div className="project-links">
+        <LinkCard 
+          text="Visit My Personal Website" 
+          url="https://aluthra23.github.io/personal-website/" 
+          icon="https://cdn-icons-png.flaticon.com/512/5339/5339184.png"
+          hoverColor="#FFD700" 
+        />
+        <LinkCard 
+          text="GitHub Repository" 
+          url="https://github.com/aluthra23/personal-website" 
+          icon="https://www.svgrepo.com/show/475654/github-color.svg"
+          hoverColor="#444" 
+        />
       </div>
     </div>
   );
