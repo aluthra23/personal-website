@@ -5,7 +5,7 @@ import Footer from '../footer/Footer';
 import './home.css'; // Import Home-specific CSS
 import AravImage from '../../assets/Arav_Image.jpg'; // Import the image
 import Socials from './Socials';
-import { motion } from 'framer-motion';
+import {motion} from 'framer-motion';
 
 // import 'animate.css';
 
