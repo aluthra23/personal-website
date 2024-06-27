@@ -10,6 +10,7 @@ import Footer from '../footer/Footer';
 import { motion } from 'framer-motion';
 import UMD_ChatBot from './my_projects/UMD_ChatBot';
 import UMD_API from './my_projects/UMD_API';
+import LinkCard from './LinkCard';
 
 const Projects = () => {
   return (
@@ -24,8 +25,15 @@ const Projects = () => {
         <div className="projects-content">
           <h2 className="projects-title">Projects</h2>
           <div className="github-link">
-            <a href="https://github.com/aluthra23" className='project-link' target="_blank">Visit my GitHub Profile</a>
+            {/* <a href="https://github.com/aluthra23" className='project-link' target="_blank">Visit my GitHub Profile</a> */}
+            <LinkCard
+              text='Visit my GitHub Profile'
+              url="https://github.com/aluthra23"
+              icon="https://www.svgrepo.com/show/475654/github-color.svg"
+              hoverColor="#444"
+            />
           </div>
+          
           <UpcomingProjects />
           <UMD_API />
           <UMD_ChatBot />
