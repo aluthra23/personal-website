@@ -73,7 +73,7 @@
 
 @media only screen and (max-width: 600px) {
   .experience-container {
-    padding-top: 140px; /* Adjust padding top for smaller screens */
+    padding-top: 80px; /* Adjust padding top for smaller screens */
   }
 
   .experience-content {
