@@ -82,7 +82,7 @@
 /* Media queries for responsiveness */
 @media only screen and (max-width: 600px) {
   .home-container {
-    padding-top: 130px;
+    padding-top: 80px;
   }
   .home-card, .about-me-card {
     padding: 20px; /* Decrease padding */
