@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './navbar.css'; 
-import { getImageUrl } from '../../utils';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,14 +18,9 @@ function Navbar() {
         Arav Luthra
       </Link>
       <div className="menu">
-        <img
-          className="menu-button" /* Added menu-button class */
-          src={
-            menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
-          }
-          alt="menu-button"
+        <FontAwesomeIcon
+          icon={menuOpen ? faTimes : faBars}
+          className="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul
