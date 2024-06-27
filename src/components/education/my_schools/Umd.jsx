@@ -15,14 +15,25 @@ const Umd = () => {
       <p className="education-details">Grade: Sophomore</p>
       <p className="education-details">Member of the <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> program, which is part of the UMD Honors College system</p>
       <p className="education-details">GPA: 4.0/4.0</p>
+      
       <h4 className="education-subtitle">Courses:</h4>
       <ul className="education-courses">
-        <li>CMSC132 (Object-Oriented Programming II): Developed data structure knowledge and refined Object-Oriented Programming skills</li>
-        <li>STAT400 (Applied Probability and Statistics I): Enhanced analytical capabilities</li>
-        <li>HACS100 (Foundations in Cybersecurity I): Provided insights into critical aspects of information security</li>
-        <li>CMSC216 (Introduction to Computer Systems): Deeper understanding of computer systems</li>
-        <li>CMSC250 (Discrete Structures): Advanced knowledge in discrete structures</li>
-        <li>MATH461 (Linear Algebra for Scientists and Engineers): Refined mathematical foundations and enhanced technical skills using MATLAB</li>
+        <li>CMSC132 (Object-Oriented Programming II)</li>
+        <li>STAT400 (Applied Probability and Statistics I)</li>
+        <li>HACS100 (Foundations in Cybersecurity I)</li>
+        <li>HACS101 (Applied Cybersecurity Foundations)</li>
+        <li>CMSC216 (Introduction to Computer Systems)</li>
+        <li>CMSC250 (Discrete Structures)</li>
+        <li>MATH461 (Linear Algebra for Scientists and Engineers)</li>
+        <li>ENES210 (Entrepreneurial Opportunity Analysis and Decision-Making in 21st Century Technology Ventures)</li>
+      </ul>
+      <h4 className="education-subtitle">My Fall 2024 Courses:</h4>
+      <ul className="education-courses">
+        <li>CMSC330 (Organization of Programming Languages)</li>
+        <li>CMSC351 (Algorithms)</li>
+        <li>MATH246 (Differential Equations for Scientists and Engineers)</li>
+        <li>CMSC388J (Special Topics in Computer Science; Building Secure Web Applications)</li>
+        <li>HACS200 (Applied Cybersecurity Foundations II)</li>
       </ul>
       <h4 className="education-subtitle">Extracurricular Activities:</h4>
       <ul className="education-courses">
