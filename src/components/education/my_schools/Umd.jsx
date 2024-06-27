@@ -1,12 +1,13 @@
 // src/components/education/Umd.jsx
 import React from 'react';
+import { getImageUrl } from '../../../utils';
 
 const Umd = () => {
   return (
     <div className="education-card">
       <h3 className="education-title">University of Maryland, College Park</h3>
       <img 
-        src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/University_of_Maryland_seal.svg/640px-University_of_Maryland_seal.svg.png" 
+        src={getImageUrl("UMD Logo.png")}
         alt="University of Maryland Logo" 
         className="education-logo"
       />
