@@ -62,7 +62,7 @@ const UMDCoursesAPI = () => {
           hoverColor="#FFD700" 
         />
         <LinkCard 
-          text="Access the GitHub Repository" 
+          text="GitHub Repository" 
           url="https://github.com/aluthra23/UMD-Courses-API" 
           icon="https://www.svgrepo.com/show/475654/github-color.svg"
           hoverColor="#444"
