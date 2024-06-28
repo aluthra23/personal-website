@@ -1,25 +1,23 @@
 // src/components/home/Home.jsx
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../footer/Footer';
 import './home.css'; // Import Home-specific CSS
 import AravImage from '../../assets/Arav_Image.jpg'; // Import the image
 import Socials from './Socials';
-import {motion} from 'framer-motion';
-
-// import 'animate.css';
-
+import { motion } from 'framer-motion';
 
 function Home() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to the top of the page
   };
+  
   const [loopNum, setLoopNum] = useState(Math.floor(Math.random() * 3));
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Software Engineer", "Data Scientist", "Cybersecurity Analyst" ];
+  const toRotate = ["Software Engineer", "Data Scientist", "Cybersecurity Analyst"];
   const period = 2000;
 
   useEffect(() => {
@@ -58,17 +56,19 @@ function Home() {
   return (
     <motion.div 
       className="whole-home"
-      initial={{opacity: 0}}
-      animate={{opacity: 1}}
-      exit={{opacity: 0}}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
     >
       {/* <Navbar /> */}
       <div className="home-container">
         <div className="home-card">
-          <h2>{`Hi! I'm Arav Luthra, a `} <b><u>{text}</u></b></h2>
+          <div className="intro-container">
+            <h2>{`Hi! I'm Arav Luthra, a `} <b><u>{text}</u></b></h2>
+            <img src={AravImage} alt="Arav Luthra" className="profile-image" />
+          </div>
           <div className="home-content">
             <div className='bio-text'>
-              <img src={AravImage} alt="Arav Luthra" className="profile-image" />
               <p>Rising Sophomore at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a> and a member of the <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College, pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a></p>
             </div>
             <div className='contact-text'>
@@ -90,7 +90,7 @@ function Home() {
         </div>
 
         <div className="about-me-card">
-          <Socials/>
+          <Socials />
         </div>
         <Footer />
       </div>
