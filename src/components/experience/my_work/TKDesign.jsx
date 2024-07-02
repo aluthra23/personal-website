@@ -1,7 +1,6 @@
 // src/components/experience/my_work/TKDesign.jsx
 import React from 'react';
 import { getImageUrl } from '../../../utils';
-import '../experience.css'
 
 const TKDesign = () => {
   return (
