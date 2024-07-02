@@ -1,13 +1,12 @@
 import React from 'react';
 import '../projects.css';
 import LinkCard from '../LinkCard';
+import ReadMore from '../ReadMore';
 
 const Waiste = () => {
   return (
     <div className="project-card">
-      <div className="project-header">
-        <h3 className="project-title">wAIste</h3>
-      </div>
+      <ReadMore title="wAIste: AI-Powered Waste Management Application">
       <p className="project-description">I collaborated with <a href="https://www.linkedin.com/in/narainsriram/" target="_blank" rel="noopener noreferrer">Narain Sriram</a> on this project.</p>
       <p className="project-description"><strong>wAIste</strong> is an innovative waste management application powered by artificial intelligence (AI). Our app revolutionizes waste disposal processes by employing state-of-the-art machine learning algorithms to analyze images of waste items captured by users. By harnessing the power of AI, wAIste provides personalized recommendations for proper waste disposal methods, including recycling, composting, or landfill. What sets wAIste apart is its utilization of two distinct AI models: one for general waste categorization and another for advanced garbage detection. With its intuitive interface and real-time insights, wAIste empowers users to make informed decisions about waste management, contributing to a cleaner and more sustainable environment.</p>
       <h4 className="features-title">Key Features:</h4>
@@ -32,6 +31,7 @@ const Waiste = () => {
           hoverColor="#444" 
         />
       </div>
+      </ReadMore>
     </div>
   );
 };

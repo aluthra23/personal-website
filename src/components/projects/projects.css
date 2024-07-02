@@ -18,7 +18,7 @@
 }
 
 .projects-content {
-  max-width: 1100px;
+  width: 1100px;
   padding: 20px;
 }
 
@@ -51,6 +51,7 @@
   position: relative;
   word-break: break-word;
   overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .project-card a {
@@ -60,6 +61,7 @@
 .project-header {
   display: flex;
   /* flex-wrap: wrap; */
+  text-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -182,6 +184,38 @@
 
 .project-link a:hover {
   color: var(--secondary-color);
+}
+
+.read-more-container {
+  margin-bottom: 30px;
+}
+
+.read-more-button {
+  background-color: var(--primary-color);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: var(--secondary-color);
+}
+
+.read-more-content {
+  /* margin-top: 15px; */
+}
+
+@media screen and (max-width: 1100px) {
+  .projects-container {
+    width: 100%;
+  }
+
+  .projects-content {
+    width: 100%;
+  }
+  
 }
 
 @media screen and (max-width: 800px){

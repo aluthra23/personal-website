@@ -3,13 +3,13 @@
 import React from 'react';
 import LinkCard from '../LinkCard';
 import '../projects.css';
+import ReadMore from '../ReadMore';
 
 const MyWebsite = () => {
   return (
     <div className="project-card">
-      <div className="project-header">
-        <h3 className="project-title">Personal Portfolio Website</h3>
-      </div>
+      <ReadMore title="Personal Portfolio Website">
+
       <p className="project-description">
         I developed a personal portfolio website to showcase my skills, projects, and experiences. The primary purpose of this website is to create a professional online presence, allowing potential employers, collaborators, and peers to easily view my work and get to know more about me. This project was my first foray into using React.js, and it has been an invaluable experience in modern web development practices.
       </p>
@@ -50,6 +50,7 @@ const MyWebsite = () => {
           hoverColor="#444" 
         />
       </div>
+      </ReadMore>
     </div>
   );
 };

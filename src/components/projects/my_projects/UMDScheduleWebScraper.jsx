@@ -1,13 +1,12 @@
 import React from 'react';
 import '../projects.css';
 import LinkCard from '../LinkCard';
+import ReadMore from '../ReadMore';
 
 const UMDScheduleWebScraper = () => {
   return (
     <div className="project-card">
-      <div className="project-header">
-        <h3 className="project-title">UMD Courses Web Scraper</h3>
-      </div>
+      <ReadMore title="UMD Courses Web Scraper">
       <p className="project-description">
         I developed this project to extract course information from the University of Maryland's <a href="https://academiccatalog.umd.edu/undergraduate/approved-courses/" target="_blank" rel="noopener noreferrer">Course Catalog</a> and <a href="https://app.testudo.umd.edu/soc/" target="_blank" rel="noopener noreferrer">Schedule of Classes</a> websites, and construct datasets with the data scraped about each UMD course.
       </p>
@@ -44,6 +43,7 @@ const UMDScheduleWebScraper = () => {
           hoverColor="#444" 
         />
       </div>
+      </ReadMore>
     </div>
   );
 };

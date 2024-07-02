@@ -1,13 +1,12 @@
 import React from 'react';
 import '../projects.css';
 import LinkCard from '../LinkCard';
+import ReadMore from '../ReadMore';
 
 const UMD_ChatBot = () => {
   return (
     <div className="project-card">
-      <div className="project-header">
-        <h3 className="project-title">UMD Scheduling Chatbot</h3>
-      </div>
+      <ReadMore title="UMD Scheduling Chatbot">
       <p className="project-description">
         The <a href="https://umd-chat-bot.streamlit.app/" target="_blank" rel="noopener noreferrer"><strong>UMD Scheduling Chatbot</strong></a> is an AI-powered assistant designed to help students at the University of Maryland find detailed information about courses and schedules. This project leverages OpenAI's GPT-4 model and a custom vector store built with FAISS to provide accurate and timely responses to user queries about UMD classes.
       </p>
@@ -57,6 +56,7 @@ const UMD_ChatBot = () => {
           hoverColor="#444" 
         />
       </div>
+      </ReadMore>
     </div>
   );
 };
