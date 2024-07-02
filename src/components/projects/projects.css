@@ -187,7 +187,8 @@
 }
 
 .read-more-container {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  word-break: keep-all;
 }
 
 .read-more-button {
