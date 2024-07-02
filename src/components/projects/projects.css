@@ -69,6 +69,11 @@
   margin-bottom: 15px;
 }
 
+.education-second-title {
+  font-size: 1.8em;
+  margin-bottom: 0px;
+}
+
 /* .project-icons {
   display: flex;
   gap: 15px;
@@ -82,6 +87,30 @@
 .features-title, .server-title {
   font-size: 1.5em;
   margin-bottom: 10px;
+}
+
+.education-subtitle {
+  color: rgba(248, 129, 96, 0.9);
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.education-second-logo {
+  position: absolute;
+  top: 25px; /* Adjust top position */
+  right: 20px; /* Adjust right position */
+  width: 50px; /* Adjust logo size for smaller screens */
+  height: auto;
+}
+
+.education-second-subtitle {
+  color: grey;
+  font-size: 1.2em;
+  margin-bottom: 0px; /* Adjust this value to increase/decrease the bottom gap */
+  margin-top: 0px; /* Add this property to adjust the top gap */
+  gap: 0;
+  box-shadow: inset;
+
 }
 
 .project-description {
@@ -155,7 +184,11 @@
   color: var(--secondary-color);
 }
 
-/* Media queries for responsiveness */
+@media screen and (max-width: 800px){
+  .education-second-logo {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -187,6 +220,10 @@
     font-size: 1.5em;
   }
 
+  .education-second-title {
+    font-size: 1.5em;
+  }
+
   .project-description, .project-features, .project-model-list, .project-steps, .project-link-list {
     font-size: 1em;
     word-wrap: break-word;
@@ -213,11 +250,18 @@
     font-size: 1.4em;
   }
 
+  .education-subtitle {
+    font-size: 1.4em;
+  }
+
+  .education-second-subtitle {
+    font-size: 1.1em;
+  }
+
   .project-video img {
     max-width: 60%;
     /* display: none; */
   }
-  
 
 
 }

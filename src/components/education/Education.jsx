@@ -1,10 +1,10 @@
 // src/components/Education.jsx
 import React from 'react';
 import Footer from '../footer/Footer';
-import Umd from './my_schools/Umd'; // Import Umd component
+import Umd from './my_schools/Umd';
 import HighSchool from './my_schools/HighSchool';
-import './education.css'; // Import Education-specific CSS
 import {motion} from 'framer-motion';
+import '../projects/projects.css'; 
 
 const Education = () => {
   return (
@@ -16,9 +16,9 @@ const Education = () => {
       exit={{opacity: 0}}
     >
       {/* <Navbar /> */}
-      <div className="education-container"> {/* Add a container class */}
-        <div className="education-content"> {/* Add a content class */}
-          <h2 className="education-title">Education</h2>
+      <div className="projects-container"> {/* Add a container class */}
+        <div className="projects-content"> {/* Add a content class */}
+          <h2 className="projects-title">Education</h2>
           <Umd />
           <HighSchool />
         </div>
