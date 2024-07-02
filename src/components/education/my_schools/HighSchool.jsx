@@ -16,7 +16,7 @@ const HighSchool = () => {
 
       <p className="education-subtitle">High School Diploma, 2019-2023</p>
 
-      <p className="education-second-subtitle">September 2019 - June 2023</p>
+      <p className="education-second-subtitle">Attended: September 2019 - June 2023</p>
       <p className="education-second-subtitle">GPA: 101.854</p>
 
       
