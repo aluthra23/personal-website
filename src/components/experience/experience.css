@@ -53,7 +53,7 @@
 }
 
 .experience-card ul {
-  padding-left: 20px; /* Indent the list */
+  padding-left: 20px;
   margin-bottom: 10px;
 }
 
@@ -78,7 +78,6 @@
 
   .experience-content {
     padding: 20px; /* Decrease padding for smaller screens */
-    max-width: 90%; /* Adjust max-width for smaller screens */
   }
 
   .experience-title {
@@ -86,27 +85,27 @@
   }
 
   .experience-card {
-    padding: 15px; /* Decrease padding for smaller screens */
+    padding: 15px;
     margin-bottom: 15px; /* Decrease margin bottom for smaller screens */
   }
 
   .experience-card h3 {
-    font-size: 1.5em; /* Decrease heading font size for smaller screens */
-    margin-bottom: 8px; /* Decrease margin bottom for smaller screens */
+    font-size: 1.5em; 
+    margin-bottom: 8px;
   }
 
   .experience-card p {
-    font-size: 1em; /* Decrease text font size for smaller screens */
-    margin-bottom: 8px; /* Decrease margin bottom for smaller screens */
+    font-size: 1em; 
+    margin-bottom: 8px;
   }
 
   .experience-card ul {
-    padding-left: 15px; /* Decrease padding left for smaller screens */
-    margin-bottom: 8px; /* Decrease margin bottom for smaller screens */
+    padding-left: 15px;
+    margin-bottom: 8px;
   }
 
   .experience-card ul li {
-    margin-bottom: 3px; /* Decrease margin bottom for smaller screens */
+    margin-bottom: 3px;
   }
 
   .experience-text {

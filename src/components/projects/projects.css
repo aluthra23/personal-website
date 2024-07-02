@@ -6,8 +6,6 @@
   width: 100%;
 }
 
-
-
 .projects-container {
   /* position: static; */
   display: flex;
@@ -163,8 +161,6 @@
 
   .projects-container {
     padding-top: 120px;
-    padding-left: 10px;
-    padding-right: 10px;
     align-items: center;
     word-wrap: break-word;
     box-sizing: border-box;
