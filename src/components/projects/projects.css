@@ -15,10 +15,12 @@
   background-color: var(--background-color);
   color: var(--text-color-light);
   padding-top: 60px;
+  width: 1100px;
 }
 
 .projects-content {
-  width: 1100px;
+  width: 100%;
+  
   padding: 20px;
 }
 
@@ -52,6 +54,7 @@
   word-break: break-word;
   overflow-wrap: break-word;
   max-width: 100%;
+  width: 100%;
 }
 
 .project-card a {
@@ -188,7 +191,6 @@
 
 .read-more-container {
   /* margin-bottom: 30px; */
-  word-break: keep-all;
 }
 
 .read-more-button {
@@ -198,23 +200,28 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  word-break: keep-all;
+  margin-left: 30px;
 }
 
 .read-more-button:hover {
   background-color: var(--secondary-color);
 }
 
-.read-more-content {
-  /* margin-top: 15px; */
-}
-
 @media screen and (max-width: 1100px) {
   .projects-container {
+    max-width: 100%;
     width: 100%;
+    min-width: 100%;
   }
 
   .projects-content {
     width: 100%;
+  }
+
+  .project-card {
+    /* max-width: 100%; */
+    /* width: 100%; */
   }
   
 }
@@ -232,11 +239,10 @@
     align-items: center;
     word-wrap: break-word;
     box-sizing: border-box;
-
   }
 
   .projects-content {
-    width: fit-content;
+    /* width: fit-content; */
     word-wrap: break-word;
     box-sizing: border-box;
     align-items: center;    
