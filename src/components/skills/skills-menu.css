@@ -65,3 +65,9 @@
   color: var(--tertiary-color);
 }
 
+@media screen and (max-width: 768px){
+  .skills-menu-item {
+    font-size: 16px;
+  }
+}
+
