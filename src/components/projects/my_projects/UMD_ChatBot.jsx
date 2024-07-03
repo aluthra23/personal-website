@@ -34,7 +34,7 @@ const UMD_ChatBot = () => {
         </ul>
         <h4 className="features-title">Technical Details:</h4>
         <p className="project-description">
-          I leveraged threading to handle background updates, ensuring the vector store is always up-to-date with the latest course information. This approach allows the chatbot to remain responsive while maintaining current data. Additionally, the integration of Streamlit, LangChain, FAISS, and OpenAI API is crucial to the chatbot's functionality:
+          The integration of Streamlit, LangChain, FAISS, and OpenAI API is crucial to the chatbot's functionality:
         </p>
         <ul className="project-features">
           <li><strong>Data Preparation:</strong> Data is preprocessed and converted into Document objects using LangChain, which are then embedded into vectors.</li>
