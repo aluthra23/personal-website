@@ -11,6 +11,7 @@ import { motion } from 'framer-motion';
 import UMD_ChatBot from './my_projects/UMD_ChatBot';
 import UMD_API from './my_projects/UMD_API';
 import LinkCard from './LinkCard';
+import UpcomingHoneyPot from './my_projects/UpcomingHoneyPot';
 
 const Projects = () => {
   return (
@@ -41,6 +42,7 @@ const Projects = () => {
           <Waiste />
           <MyWebsite/>
           <StockMarketPrediction />
+          <UpcomingHoneyPot />
         </div>
         <Footer/>
       </div>
