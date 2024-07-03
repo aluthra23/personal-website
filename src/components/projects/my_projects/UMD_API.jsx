@@ -8,6 +8,9 @@ const UMDCoursesAPI = () => {
   return (
     <div className="project-card">
       <ReadMore title="UMD Courses API (1.0.0)">
+
+        <p className="education-second-subtitle">June 2024</p>
+
         <p className="project-description">
           The UMD Courses API is an open-source API developed using the FastAPI web framework. This API provides direct access to data related to University of Maryland (UMD) coursework. The API and its documentation can be accessed <a href="https://umd-courses-api-aluthra-705eb647.koyeb.app/" target="_blank" rel="noopener noreferrer">here</a>.
         </p>

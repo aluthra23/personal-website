@@ -9,6 +9,8 @@ const StockMarketPrediction = () => {
   return (
     <div className="project-card">
       <ReadMore title="Stock Market Prediction with LSTM">
+        <p className="education-second-subtitle">July 2022 - August 2022</p>
+
         <p className="project-description">
           <strong>Stock Market Prediction with LSTM</strong> explores the use of Long Short-Term Memory (LSTM) networks for stock market prediction. The notebook contains Python code for training an LSTM model to predict stock prices based on historical data.
         </p>
