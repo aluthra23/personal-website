@@ -20,7 +20,12 @@ const HighSchool = () => {
       <p className="education-second-subtitle">GPA: 101.854</p>
 
       
-      <p className="project-description">Located at MORRIS HILLS HIGH SCHOOL, in Rockaway, the Academy for Mathematics, Science, and Engineering is a rigorous, highly focused four-year program for students with career interests in engineering.</p>
+      <p className="project-description">I attended the Academy for Mathematics, Science, and Engineering, a rigorous, highly focused four-year program with career interests in Engineering. With the Academy, I gained exposure to various engineering tools and concepts, like AutoCAD, Solidworks, Metalshop and Woodshop skills, the Engineering Design Process, etc. </p>
+
+      <p className="project-description">To gain admission to this Academy, I underwent a rigorous and selective process. First, I took an entrance exam and was later selected from a pool of candidates for an interview in a group of six other people. In the end, I was invited to join this program as one of 48 kids.</p>
+
+
+
       <u><h4 className="features-title">Courses and Scores:</h4></u>
       <ul className="project-features">
         <li>AP Physics 1: 4</li>
@@ -46,7 +51,8 @@ const HighSchool = () => {
         <li>Academy Engineering & Product Development & Technology 2 H</li>
         <li>Academy Biotechnology H</li>
         <li>Academy Engineering & Product Development & Technology 3 H</li>
-        <li>Academy Technical Writing H (semester)</li>
+        <li>Academy Technical Writing H</li>
+        <li>Robotics</li>
       </ul>
     </div>
   );
