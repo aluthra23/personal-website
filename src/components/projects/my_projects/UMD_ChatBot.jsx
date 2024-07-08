@@ -45,6 +45,12 @@ const UMD_ChatBot = () => {
           <li><strong>User Interface:</strong> Streamlit is used to create a simple and intuitive chat interface, enabling users to interact seamlessly with the AI-powered chatbot.</li>
         </ul>
         <div className="project-links">
+          <LinkCard
+            text="View Project Demo" 
+            url="https://youtu.be/KEKWtafWjeQ" 
+            icon="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-512.png"
+            hoverColor="#ff6666"
+          />
           <LinkCard 
             text="Visit my Chat Bot here" 
             url="https://umd-chat-bot.streamlit.app/" 
