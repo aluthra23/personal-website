@@ -26,7 +26,21 @@ const EngineeringSkills = () => {
           description="Skilled in Onshape for collaborative 3D modeling and design, leveraging cloud-based tools to create and manage complex mechanical parts and assemblies efficiently."
           level="Advanced"
           logo="https://us.v-cdn.net/5022071/uploads/V3B85DTZQS8W/box-onshape-favicon-512-401x.png"
-        />              
+        />
+
+        <SkillCard
+          title="Woodworking"
+          description="Proficient in woodworking techniques and tools. Learned this skill from my 'Woods and Metals' class in high school (Academy for Mathematics, Science, and Engineering)."
+          level="Learning"
+          logo="https://cdn-icons-png.flaticon.com/512/928/928746.png"
+        />
+
+        <SkillCard
+          title="Metalworking"
+          description="Proficient in metalworking techniques and tools. Learned this skill from my 'Woods and Metals' class in high school (Academy for Mathematics, Science, and Engineering)."
+          level="Learning"
+          logo="https://cdn-icons-png.flaticon.com/512/2534/2534277.png"
+        />
       </div>
     </div>
 )
