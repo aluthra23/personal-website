@@ -33,10 +33,16 @@ const Waiste = () => {
             hoverColor="#ff6666"
           />
           <LinkCard 
-            text="GitHub Repository" 
+            text="GitHub Repository for UI/UX" 
             url="https://github.com/narainsriram2020/wAIste" 
             icon="https://www.svgrepo.com/show/475654/github-color.svg"
             hoverColor="#444" 
+          />
+          <LinkCard 
+            text="GitHub Repository for Flask Server" 
+            url="https://github.com/aluthra23/wAIste_flask_server"
+            icon="https://www.svgrepo.com/show/475654/github-color.svg"
+            hoverColor="#444"
           />
         </div>
       </ReadMore>
