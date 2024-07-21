@@ -1,6 +1,7 @@
 // src/components/experience/my_work/TKDesign.jsx
 import React from 'react';
 import { getImageUrl } from '../../../utils';
+import LinkCard from '../../projects/LinkCard';
 
 const TKDesign = () => {
   return (
@@ -28,6 +29,13 @@ const TKDesign = () => {
       </ul>
 
       <p className="project-description">At the end, we developed a Capstone Project, applying all of the skills we learned throughout the year. We assumed as if we were assigned an actual location to develop a cell site. In a group of four, we developed a Lease Exhibit, a Building Permit Application including subcodes, and a list of 10 items that need to be inspected after completion for the cell site development at this particular location.</p>
+
+      <LinkCard
+        text="TK Design Associates"
+        url="https://tkdesignassociates.com/"
+        icon={getImageUrl("TK_Design_Logo.png")}
+        hoverColor="#53B4B4"
+      />
     </div>
   );
 };
