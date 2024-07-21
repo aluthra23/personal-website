@@ -3,6 +3,7 @@ import React from 'react';
 import Footer from '../footer/Footer';
 import TKDesign from './my_work/TKDesign';
 import {motion} from 'framer-motion';
+import HeadstarterAI from './my_work/HeadstarterAI';
 
 const Experience = () => {
   return (
@@ -15,6 +16,7 @@ const Experience = () => {
       <div className="projects-container">
         <div className="projects-content">
         <h2 className="projects-title">Experience</h2>
+          <HeadstarterAI/>
           <TKDesign/>
         </div>
         <Footer />

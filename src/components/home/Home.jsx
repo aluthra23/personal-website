@@ -60,7 +60,6 @@ function Home() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      {/* <Navbar /> */}
       <div className="home-container">
         <div className="home-card">
           <div className="intro-container">
