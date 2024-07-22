@@ -71,8 +71,15 @@ const SoftwareEngineeringSkills = () => {
         <SkillCard
           title="FastAPI"
           description="Experienced in FastAPI for building fast and scalable web APIs with Python. Currently developing an API that scrapes and returns UMD course data"
-          level="Learning"
+          level="Intermediate"
           logo="https://cdn.worldvectorlogo.com/logos/fastapi.svg"
+        />
+
+        <SkillCard
+          title='MongoDB'
+          description='Experienced in MongoDB for storing and managing data in web applications. Currently developing a full-stack web application that uses MongoDB for data storage.'
+          level='Learning'
+          logo="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-3521676-2945120.png?f=webp"
         />
       </div>
     </div>
