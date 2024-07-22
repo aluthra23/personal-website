@@ -81,6 +81,13 @@ const SoftwareEngineeringSkills = () => {
           level='Learning'
           logo="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-3521676-2945120.png?f=webp"
         />
+
+        <SkillCard
+          title="Express.js"
+          description='Experienced in Express.js for building web applications with Node.js. Currently developing a full-stack web application that uses Express.js for the backend API.'
+          level="Learning"
+          logo={getImageUrl("expressjs-logo.png")}
+        />
       </div>
     </div>
 )
