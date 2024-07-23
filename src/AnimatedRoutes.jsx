@@ -16,7 +16,7 @@ function AnimatedRoutes() {
     
     return (
         <div className="whole-home">
-            <AnimatePresence>
+            <>
                 <Navbar />
                 <Routes location={location} key={location.pathname}>
                     <Route path="/personal-website/" element={<Home />} />
@@ -27,7 +27,7 @@ function AnimatedRoutes() {
                     <Route path="/personal-website/contact" element={<Contact />} />
                     <Route path="*" element={<NotFound />} /> 
                 </Routes>
-            </AnimatePresence>
+            </>
         </div>
     )
 }
