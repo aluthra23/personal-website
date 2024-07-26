@@ -88,6 +88,13 @@ const SoftwareEngineeringSkills = () => {
           level="Learning"
           logo={getImageUrl("expressjs-logo.png")}
         />
+
+        <SkillCard
+          title="Firebase"
+          description="Experienced in Firebase for developing web and mobile applications. Currently developing a full-stack web application that uses Firebase for authentication and data storage."
+          level="Learning"
+          logo='https://www.gstatic.com/devrel-devsite/prod/v1698cdd3153b47734bb6d9d8688c4490898207543be76b2c5805f109c27c7695/firebase/images/touchicon-180.png'
+        />
       </div>
     </div>
 )
