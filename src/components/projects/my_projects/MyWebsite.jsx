@@ -50,6 +50,12 @@ const MyWebsite = () => {
             icon="https://www.svgrepo.com/show/475654/github-color.svg"
             hoverColor="#444" 
           />
+          <LinkCard
+            text="Portfolio Website Presentation"
+            url="https://youtu.be/WF0gpHXVvxA"
+            icon="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-512.png"
+            hoverColor="#ff6666"
+          />
         </div>
       </ReadMore>
     </div>
