@@ -1,4 +1,4 @@
-// src/components/experience/my_work/HeadstarterAI.jsx
+// src/components/experience/my_work/TruVoice.jsx
 import React from 'react';
 import { getImageUrl } from '../../../utils';
 import LinkCard from '../../projects/LinkCard';
