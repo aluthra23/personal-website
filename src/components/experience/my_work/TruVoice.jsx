@@ -18,8 +18,8 @@ const TruVoice = () => {
       <p className="education-second-subtitle">Jul 2024 - Present</p>
       <p className="education-second-subtitle">Remote</p>
 
-      <p className="project-description">Creating an analytics dashboard for product usage and billing</p>
-      <p className="project-description">Using React JS, MongoDB, and Express JS</p>
+      {/* <p className="project-description">Creating an analytics dashboard for product usage and billing</p>
+      <p className="project-description">Using React JS, MongoDB, and Express JS</p> */}
 
       <p className="project-description">Working under the mentorship of <a href="https://www.linkedin.com/in/vamsikrishna-kv/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">Vamsi Krishna KV</a></p>
       <LinkCard
