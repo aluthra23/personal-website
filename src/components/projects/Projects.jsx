@@ -12,6 +12,7 @@ import UMD_ChatBot from './my_projects/UMD_ChatBot';
 import UMD_API from './my_projects/UMD_API';
 import LinkCard from './LinkCard';
 import UpcomingHoneyPot from './my_projects/UpcomingHoneyPot';
+import InventoryTracker from './my_projects/InventoryTracker';
 
 const Projects = () => {
   return (
@@ -34,8 +35,9 @@ const Projects = () => {
               hoverColor="#444"
             />
           </div>
-          
+
           <UpcomingProjects />
+          <InventoryTracker />
           <UMD_API />
           <UMD_ChatBot />
           <UMDScheduleWebScraper />
