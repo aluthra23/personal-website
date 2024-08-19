@@ -10,7 +10,7 @@ const TruVoice = () => {
         <h3 className="education-second-title">Software Engineering Internship</h3>
       </div>
       <img 
-        src="https://truvoice.ai/wp-content/uploads/2022/06/favicon.png" 
+        src={getImageUrl("TruvoiceLogo.png")}
         alt="TruVoice.ai Logo"
         className="education-second-logo"
       />
@@ -25,7 +25,7 @@ const TruVoice = () => {
       <LinkCard
         text="TruVoice.ai"
         url="https://truvoice.ai/"
-        icon="https://truvoice.ai/wp-content/uploads/2022/06/favicon.png"
+        icon={getImageUrl("TruvoiceLogo.png")}
         hoverColor="#53B4B4"
       />
     </div>
