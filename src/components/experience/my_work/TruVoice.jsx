@@ -14,14 +14,14 @@ const TruVoice = () => {
         alt="TruVoice.ai Logo"
         className="education-second-logo"
       />
-      <p className="education-subtitle">TruVoice.ai</p>
+      <p className="education-subtitle">TruVoice.ai (End Client: TMP Direct)</p>
       <p className="education-second-subtitle">Jul 2024 - Present</p>
       <p className="education-second-subtitle">Remote</p>
+      
+      <p className="project-description">I am working under the mentorship of <a href="https://www.linkedin.com/in/vamsikrishna-kv/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">Vamsi Krishna KV</a>. I created an interactive analytics dashboard for a customer support company, TMP Direct, to monitor and report on product usage and billing data. I utilized React JS to create dynamic, component-based UI elements for displaying key metrics such as Usage, Billing, and Credit Balances. I set up and configured MongoDB as the backend database, importing and structuring data from CSV files, and defining schemas for various data types (e.g., strings, integers, dates). I developed and integrated a RESTful API using Express.js to set up the login backend and dynamically ingest live data into the dashboard, ensuring that information is up-to-date.</p>
 
-      {/* <p className="project-description">Creating an analytics dashboard for product usage and billing</p>
-      <p className="project-description">Using React JS, MongoDB, and Express JS</p> */}
 
-      <p className="project-description">Working under the mentorship of <a href="https://www.linkedin.com/in/vamsikrishna-kv/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">Vamsi Krishna KV</a></p>
+
       <LinkCard
         text="TruVoice.ai"
         url="https://truvoice.ai/"

@@ -18,7 +18,7 @@ const Experience = () => {
         <div className="projects-content">
         <h2 className="projects-title">Experience</h2>
           <TruVoice/>
-          <HeadstarterAI/>
+          {/* <HeadstarterAI/> */}
           <TKDesign/>
         </div>
         <Footer />
