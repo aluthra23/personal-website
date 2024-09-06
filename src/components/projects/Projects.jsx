@@ -44,7 +44,7 @@ const Projects = () => {
           </div>
 
           <UpcomingProjects />
-          <InventoryTracker />
+          {/* <InventoryTracker /> */}
           <UMD_API />
           <UMD_ChatBot />
           <UMDScheduleWebScraper />
