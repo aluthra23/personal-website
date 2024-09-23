@@ -31,7 +31,7 @@ const Socials = () => {
         />
         <SocialCard
           icon={getImageUrl("resume.png")}
-          link="https://drive.google.com/file/d/1CHFqSpB4PXUMnKEtQTJ7OtlemT_SA6vP/view?usp=sharing"
+          link="https://drive.google.com/file/d/1VkseXj9UJOCL78ofIFkwbYTgf2XClS_V/view?usp=sharing"
           name="Resume"
         />
         {/* Add other social media platforms */}
