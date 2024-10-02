@@ -6,6 +6,13 @@
   width: 100%;
 }
 
+.experience-subtitle {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+
 .projects-container {
   /* position: static; */
   display: flex;
