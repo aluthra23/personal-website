@@ -33,9 +33,9 @@ const HighSchool = () => {
         <li>AP Physics C: Electricity and Magnetism: 5</li>
         <li>AP Computer Science A: 5</li>
         <li>AP Chemistry: 5</li>
-        <li>AP Biology: 3</li>
-        <li>AP Language and Composition: 3</li>
-        <li>AP US History: 3</li>
+        {/* <li>AP Biology: 3</li> */}
+        {/* <li>AP Language and Composition: 3</li> */}
+        {/* <li>AP US History: 3</li> */}
         <li>AP Calculus BC: 5</li>
         <li>AP Microeconomics: 5</li>
         <li>AP Macroeconomics: 5</li>

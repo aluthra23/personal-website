@@ -40,8 +40,9 @@ const Umd = () => {
       <ul className="project-features">
         <li>CMSC330 (Organization of Programming Languages)</li>
         <li>CMSC351 (Algorithms)</li>
+        <li>CMSC320 (Introduction to Data Science)</li>
         <li>MATH246 (Differential Equations for Scientists and Engineers)</li>
-        <li>CMSC388J (Special Topics in Computer Science; Building Secure Web Applications)</li>
+        <li>HACS208N (Digital Forensics)</li>
         <li>HACS200 (Applied Cybersecurity Foundations II)</li>
       </ul>
       <u><h4 className="features-title">Extracurricular Activities:</h4></u>
