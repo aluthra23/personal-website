@@ -18,7 +18,7 @@ const AIMLClub = () => {
       <p className="education-second-subtitle">October 2024 - Present</p>
       <p className="education-second-subtitle">College Park, MD</p>
       
-      <p className="project-description"></p>
+      <p className="project-description">I was selected as 1 of 4 members for this project by UMD’s AI/ML Club. I am constructing a data pipeline to analyze and summarize engagement metrics and areas of student confusion throughout lecture.</p>
 
 
 
