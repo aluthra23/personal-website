@@ -18,7 +18,9 @@ const AppDev = () => {
       <p className="education-second-subtitle">October 2024 - Present</p>
       <p className="education-second-subtitle">College Park, MD</p>
       
-      <p className="project-description">I was selected by UMD’s App Dev Club for a project with the NOAA. We are building a package that fetches requested data from the NOAA database, which is in a AWS S3 Bucket. We are developing an algorithm to take care of time and spatial interpolations in the absence of requested data.</p>
+      <p className="project-description">I was selected by UMD’s App Dev Club for a project with the NOAA. We built a package that fetches requested data from the NOAA database, which is in a AWS S3 Bucket. We developed an algorithm to take care of time and spatial interpolations in the absence of requested data.</p>
+
+      <p className='project-description'>The package was published and can be found at <a href='https://pypi.org/project/swpc-wamipe' target='_blank' rel="noopener noreferrer">pypi.org/project/swpc-wamipe/</a></p>
 
 
 
