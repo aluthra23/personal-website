@@ -23,6 +23,12 @@ const AppDev = () => {
       <p className='project-description'>The package was published and can be found at <a href='https://pypi.org/project/swpc-wamipe' target='_blank' rel="noopener noreferrer">pypi.org/project/swpc-wamipe/</a></p>
 
 
+      <LinkCard
+        text="Python Package"
+        url="https://pypi.org/project/swpc-wamipe/"
+        icon={'https://developer.fedoraproject.org/static/logo/python.png'}
+        hoverColor="#53B4B4"
+      />
 
       <LinkCard
         text="App Dev Club"

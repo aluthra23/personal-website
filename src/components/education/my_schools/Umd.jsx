@@ -25,7 +25,7 @@ const Umd = () => {
       <p className="project-description">I attend the University of Maryland, College Park, where I am currently pursuing a double major in Computer Science and Mathematics. I'm pursuing the Data Science track in the Computer Science Major, where I have maintained a perfect (4.0) GPA after my first two semesters. Furthermore, I'm part of the UMD Honors College system and specificy a ember of the <a href="https://aces.umd.edu/" target="_blank" rel="noopener noreferrer">Advanced Cybersecurity Experience for Students (ACES)</a> program. The ACES program is the most selective honors college at UMD, where I am exposed to various networking and technical opportunities to help build my career.</p>
       
       
-      <u><h4 className="features-title">Courses:</h4></u>
+      {/* <u><h4 className="features-title">Courses:</h4></u>
       <ul className="project-features">
         <li>CMSC132 (Object-Oriented Programming II)</li>
         <li>STAT400 (Applied Probability and Statistics I)</li>
@@ -51,7 +51,7 @@ const Umd = () => {
         <li>ACES CyberConnect Program</li>
         <li>Competitive Programming</li>
         <li>Bilingual: Fluent in Hindi and English</li>
-      </ul>
+      </ul> */}
     </div>
   );
 };

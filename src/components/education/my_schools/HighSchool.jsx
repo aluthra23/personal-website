@@ -26,16 +26,13 @@ const HighSchool = () => {
 
 
 
-      <u><h4 className="features-title">Courses and Scores:</h4></u>
+      {/* <u><h4 className="features-title">Courses and Scores:</h4></u>
       <ul className="project-features">
         <li>AP Physics 1: 4</li>
         <li>AP Physics C: Mechanics: 4</li>
         <li>AP Physics C: Electricity and Magnetism: 5</li>
         <li>AP Computer Science A: 5</li>
         <li>AP Chemistry: 5</li>
-        {/* <li>AP Biology: 3</li> */}
-        {/* <li>AP Language and Composition: 3</li> */}
-        {/* <li>AP US History: 3</li> */}
         <li>AP Calculus BC: 5</li>
         <li>AP Microeconomics: 5</li>
         <li>AP Macroeconomics: 5</li>
@@ -53,7 +50,7 @@ const HighSchool = () => {
         <li>Academy Engineering & Product Development & Technology 3 H</li>
         <li>Academy Technical Writing H</li>
         <li>Robotics</li>
-      </ul>
+      </ul> */}
     </div>
   );
 };
