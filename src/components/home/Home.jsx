@@ -68,7 +68,7 @@ function Home() {
           </div>
           <div className="home-content">
             <div className='bio-text'>
-              <p>Rising Sophomore at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a> and a member of the <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College, pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a></p>
+              <p>Sophomore at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a> and a member of the <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College, pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a></p>
             </div>
             <div className='contact-text'>
               <Link to='/personal-website/contact' className="contact-button" onClick={scrollToTop}>
@@ -81,7 +81,7 @@ function Home() {
           <h2>About Me</h2>
           <div className="about-me-content">
             <p>
-              I am a highly motivated rising sophomore at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a>, pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a>, while being an active member of the <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College. 
+              I am a highly motivated sophomore at <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a>, pursuing a double major in <a href="https://www.cs.umd.edu/" target="_blank">Computer Science</a> and <a href="https://www-math.umd.edu/" target="_blank">Mathematics</a>, while being an active member of the <a href="https://aces.umd.edu/" target="_blank">Advanced Cybersecurity Experience for Students (ACES)</a> Honors College. 
               With a strong academic record and a passion for technology, I consistently demonstrate a robust work ethic, creative problem-solving skills, and a positive attitude. 
               I am eager to apply my knowledge and skills in a challenging Software Engineering internship, where I can contribute to innovative projects and further develop my expertise.
             </p>
