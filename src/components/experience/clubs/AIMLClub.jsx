@@ -18,7 +18,18 @@ const AIMLClub = () => {
       <p className="education-second-subtitle">October 2024 - Present</p>
       <p className="education-second-subtitle">College Park, MD</p>
       
-      <p className="project-description">I was selected as 1 of 4 members for this project by UMD’s AI/ML Club. I am constructing a data pipeline to analyze and summarize engagement metrics and areas of student confusion throughout lecture.</p>
+      <p className="project-description">I was selected by UMD's AI/ML Club for this project as 1 of 4 people from a pool of 125 applicants. We are developing a Retrieval-Augmented Generation (RAG) system for university lectures using LLMs to answer student queries in real-time.</p>
+
+      <p className='project-description'>Process:</p>
+
+      <ol className="project-list">
+        <li>We used OpenAI's Whisper API to transcribe lectures in real-time and used the spaCy library to preprocess the transcription.</li>
+        <li>We store the transcribed lectures as vector embeddings in a Qdrant vector database</li>
+        <li>We have a separate user interface where students can type in queries at any point in the lecture and the Qdrant vector database is traversed to find relevant context before generating a response from the Llama 3.0 model which is locally hosted</li>
+      </ol>
+
+      <p className='project-description'>We are also applying topic modeling to identify areas of student confusion, enabling targeted support in high-need topics. Engauge is also deployed and currently being used in several UMD math courses.</p>
+
 
 
 

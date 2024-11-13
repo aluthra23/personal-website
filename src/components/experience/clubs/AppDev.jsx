@@ -15,12 +15,20 @@ const AppDev = () => {
         className="education-second-logo"
       />
       <p className="education-subtitle">App Dev Club × NOAA</p>
-      <p className="education-second-subtitle">October 2024 - Present</p>
+      <p className="education-second-subtitle">October 2024 - November 2024</p>
       <p className="education-second-subtitle">College Park, MD</p>
       
-      <p className="project-description">I was selected by UMD’s App Dev Club for a project with the NOAA. We built a package that fetches requested data from the NOAA database, which is in a AWS S3 Bucket. We developed an algorithm to take care of time and spatial interpolations in the absence of requested data.</p>
+      <p className="project-description">I was selected by UMD's App Dev Club for this project to work with the NOAA's Space Weather Prediction Center.</p>
 
-      <p className='project-description'>The package was published and can be found at <a href='https://pypi.org/project/swpc-wamipe' target='_blank' rel="noopener noreferrer">pypi.org/project/swpc-wamipe/</a></p>
+      <p className='project-description'>We developed a software package for accessing atmospheric data from NOAA's Whole Atmosphere Model-Ionosphere Plasmasphere Electrodynamics (WAM-IPE) model. Our package allows users to predict the neutral density near satellites, which is critical for space weather research.</p>
+
+      <p className='project-description'>More specifics about the package: </p>
+
+      <ul className="project-features">
+        <li><b><u>Data Retrieval System Design</u></b>: Built a reliable interface to NOAA’s AWS S3 storage. Developed functions for efficient data fetching based on date, time, and satellite coordinates.</li>
+        <li><b><u>Custom Interpolation Algorithm</u></b>: Created an advanced interpolation algorithm to fill data gaps. This algorithm combines temporal and spatial interpolation methods to estimate missing neutral density values at specified satellite locations, ensuring continuity and accuracy even when direct measurements are absent</li>
+      </ul>
+
 
 
       <LinkCard

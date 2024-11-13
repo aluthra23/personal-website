@@ -144,6 +144,15 @@
   color: var(--text-color-light);
 }
 
+.project-list{
+  font-size: 1.2em;
+  margin: 15px 0;
+  padding-left: 20px;
+  /* list-style: disc; */
+  color: var(--text-color-light);
+}
+
+
 .project-steps {
   list-style: decimal;
 }
