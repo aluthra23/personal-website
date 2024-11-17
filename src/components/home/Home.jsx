@@ -17,7 +17,7 @@ function Home() {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Software Engineer", "Data Scientist", "Cybersecurity Analyst"];
+  const toRotate = ["Software Engineer", "Machine Learning Engineer", "Cybersecurity Analyst"];
   const period = 2000;
 
   useEffect(() => {
