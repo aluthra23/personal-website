@@ -1,10 +1,7 @@
 // src/components/experience/Experience.jsx
 import React, { useState, useEffect } from 'react';
 import Footer from '../footer/Footer';
-import TKDesign from './work/TKDesign';
 import {motion} from 'framer-motion';
-import HeadstarterAI from './work/HeadstarterAI';
-import TruVoice from './work/TruVoice';
 import ExperienceMenu from './ExpMenu';
 import Work from './Work';
 import Clubs from './Clubs';

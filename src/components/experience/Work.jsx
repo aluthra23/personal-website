@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <div className="computer-science-skills">
         <h3 className='experience-subtitle' style={{'textAlign': 'center'}}>Internships</h3>
-        <TruVoice />
+        {/* <TruVoice /> */}
         <TKDesign />
     </div>
   )
