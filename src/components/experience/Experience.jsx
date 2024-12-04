@@ -5,6 +5,8 @@ import {motion} from 'framer-motion';
 import ExperienceMenu from './ExpMenu';
 import Work from './Work';
 import Clubs from './Clubs';
+import Research from './Research';
+
 const Experience = () => {
   const [showScrollToTop, setShowScrollToTop] = useState(false);
 
@@ -62,13 +64,14 @@ const Experience = () => {
             <Work />
           </div>
 
+          <div className='experience-group' id="research-experience">
+            <Research/>
+          </div>
+
           <div className='skill-group' id="clubs-experience">
             <Clubs />
           </div>
 
-          {/* <div className='experience-group' id="research-experience">
-            <Research/>
-          </div> */}
 
 
         </div>
