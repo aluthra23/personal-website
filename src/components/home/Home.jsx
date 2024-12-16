@@ -77,7 +77,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="about-me-card">
+        {/* <div className="about-me-card">
           <h2>About Me</h2>
           <div className="about-me-content">
             <p>
@@ -86,7 +86,7 @@ function Home() {
               I am eager to apply my knowledge and skills in a challenging Software Engineering internship, where I can contribute to innovative projects and further develop my expertise.
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className="about-me-card">
           <Socials />
