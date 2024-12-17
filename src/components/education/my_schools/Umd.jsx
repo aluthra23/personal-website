@@ -17,7 +17,7 @@ const Umd = () => {
       
       <p className="education-subtitle">Bachelor of Science in Computer Science and Mathematics (Double Major)</p>
       <p className="education-second-subtitle">Started: August 2023</p>
-      <p className="education-second-subtitle">Expected Graduation: May 2027</p>
+      <p className="education-second-subtitle">Expected Graduation: December 2026</p>
       <p className="education-second-subtitle">GPA: 4.0</p>
 
 
