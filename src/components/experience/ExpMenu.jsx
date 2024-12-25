@@ -6,11 +6,11 @@ import '../skills/skills-menu.css'
 const ExperienceMenu = ({ scrollToSection }) => {
   return (
     <div className='skills-menu'>
-      {/* <div className="individual-skills-menu">
+      <div className="individual-skills-menu">
         <button onClick={() => scrollToSection('internship-experience')} className="skills-menu-item">
           <Link to="#Internship">Internships</Link>
         </button>
-      </div> */}
+      </div>
 
       <div className="individual-skills-menu">
         <button onClick={() => scrollToSection('research-experience')} className="skills-menu-item">

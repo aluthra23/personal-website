@@ -60,9 +60,9 @@ const Experience = () => {
           <ExperienceMenu scrollToSection={scrollToSection} />
           
 
-          {/* <div className='skill-group' id="internship-experience">
+          <div className='skill-group' id="internship-experience">
             <Work />
-          </div> */}
+          </div>
 
           <div className='experience-group' id="research-experience">
             <Research/>
