@@ -49,7 +49,7 @@ const Projects = () => {
           <UMD_ChatBot />
           <UMDScheduleWebScraper />
           <Waiste />
-          <MyWebsite/>
+          {/* <MyWebsite/> */}
           <StockMarketPrediction />
           <UpcomingHoneyPot />
         </div>
