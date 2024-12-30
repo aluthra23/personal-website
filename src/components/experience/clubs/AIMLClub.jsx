@@ -7,7 +7,7 @@ const AIMLClub = () => {
   return (
     <div className="project-card">
       <div className="project-header">  
-        <h3 className="education-second-title">Machine Learning Engineer</h3>
+        <h3 className="education-second-title">Software Engineer</h3>
       </div>
       <img 
         src={'https://media.licdn.com/dms/image/v2/D4D0BAQHBHbibmPRPrw/company-logo_200_200/company-logo_200_200/0/1720999222468?e=1735776000&v=beta&t=p6yOtbrVaxTqUWnYQQ_l4FkaS17MvLQuVSXidKG72KU'}
