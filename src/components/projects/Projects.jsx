@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 import UMD_ChatBot from './my_projects/UMD_ChatBot';
 import UMD_API from './my_projects/UMD_API';
 import LinkCard from './LinkCard';
-import UpcomingHoneyPot from './my_projects/UpcomingHoneyPot';
+import Honeypot from './my_projects/HoneyPot';
 import InventoryTracker from './my_projects/InventoryTracker';
 
 const Projects = () => {
@@ -44,6 +44,7 @@ const Projects = () => {
           </div>
 
           <UpcomingProjects />
+          <Honeypot />
           {/* <InventoryTracker /> */}
           <UMD_API />
           <UMD_ChatBot />
@@ -51,7 +52,7 @@ const Projects = () => {
           <Waiste />
           {/* <MyWebsite/> */}
           <StockMarketPrediction />
-          <UpcomingHoneyPot />
+          
         </div>
         <Footer/>
       </div>
