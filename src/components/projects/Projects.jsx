@@ -43,7 +43,7 @@ const Projects = () => {
 
           </div>
 
-          <UpcomingProjects />
+          {/* <UpcomingProjects /> */}
           <Honeypot />
           {/* <InventoryTracker /> */}
           <UMD_API />
