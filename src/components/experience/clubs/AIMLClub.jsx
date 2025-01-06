@@ -10,7 +10,7 @@ const AIMLClub = () => {
         <h3 className="education-second-title">Software Engineer</h3>
       </div>
       <img 
-        src={'https://media.licdn.com/dms/image/v2/D4D0BAQHBHbibmPRPrw/company-logo_200_200/company-logo_200_200/0/1720999222468?e=1735776000&v=beta&t=p6yOtbrVaxTqUWnYQQ_l4FkaS17MvLQuVSXidKG72KU'}
+        src={getImageUrl('AIML.jpeg')}
         alt="AI/ML Club"
         className="education-second-logo"
       />
@@ -36,14 +36,14 @@ const AIMLClub = () => {
       <LinkCard
         text="AI/ML Club"
         url="https://www.linkedin.com/company/ai-ml-club/"
-        icon={'https://media.licdn.com/dms/image/v2/D4D0BAQHBHbibmPRPrw/company-logo_200_200/company-logo_200_200/0/1720999222468?e=1735776000&v=beta&t=p6yOtbrVaxTqUWnYQQ_l4FkaS17MvLQuVSXidKG72KU'}
+        icon={getImageUrl('AIML.jpeg')}
         hoverColor="#53B4B4"
       />
 
       <LinkCard
         text="Engauge"
         url="https://www.linkedin.com/company/engaugelive/"
-        icon={'https://media.licdn.com/dms/image/v2/D4E0BAQEJKSF74Xupgg/company-logo_200_200/company-logo_200_200/0/1726251339116/engaugelive_logo?e=1735776000&v=beta&t=YNp69LMhAr4Cl8fylkGSHAOSUEtlZxGimBYuoqQUlZE'}
+        icon={getImageUrl('engaugelive_logo.jpeg')}
         hoverColor="#53B4B4"
       />
     </div>
