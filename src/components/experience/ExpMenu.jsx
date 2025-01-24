@@ -8,7 +8,7 @@ const ExperienceMenu = ({ scrollToSection }) => {
     <div className='skills-menu'>
       <div className="individual-skills-menu">
         <button onClick={() => scrollToSection('internship-experience')} className="skills-menu-item">
-          <Link to="#Internship">Internships</Link>
+          <Link to="#Internship">Work</Link>
         </button>
       </div>
 
