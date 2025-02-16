@@ -7,10 +7,10 @@ const Engauge = () => {
   return (
     <div className="project-card">
       <div className="project-header">  
-        <h3 className="education-second-title">Lead Software Engineer</h3>
+        <h3 className="education-second-title">Founding Software Engineer</h3>
       </div>
       <img 
-        src={getImageUrl('AIML.jpeg')}
+        src={getImageUrl('engaugelive_logo.jpeg')}
         alt="AI/ML Club"
         className="education-second-logo"
       />
@@ -21,13 +21,6 @@ const Engauge = () => {
       <p className="project-description">Currently, I am taking the lead in remodeling the current website and services with React, Next.js, and Supabase. We are also developing a RAG system for university lectures using Qdrant and Google's LLMs to answer student queries in real-time. The professors' lectures are transcribed using AssemblyAI's Speech-to-Text model. Our product also includes additional features for instructors such as a drawing tool and live chat. Our product is set to be deployed in multiple UMD math classes and introductory CS classes in Spring 2025. We are also part of the Mokhtarzada Hatchery at the University of Maryland where we get access to a dedicated workplace, receive meaningful mentorship, and seed funding.</p>
 
 
-      {/* <LinkCard
-        text="AI/ML Club"
-        url="https://www.linkedin.com/company/ai-ml-club/"
-        icon={getImageUrl('AIML.jpeg')}
-        hoverColor="#53B4B4"
-      />
- */}
       <LinkCard
         text="Engauge"
         url="https://www.engauge.live/"
