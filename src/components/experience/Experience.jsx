@@ -68,9 +68,9 @@ const Experience = () => {
             <Research/>
           </div>
 
-          <div className='skill-group' id="clubs-experience">
+          {/* <div className='skill-group' id="clubs-experience">
             <Clubs />
-          </div>
+          </div> */}
 
 
 

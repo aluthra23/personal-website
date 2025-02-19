@@ -19,11 +19,11 @@ const ExperienceMenu = ({ scrollToSection }) => {
       </div>
 
 
-      <div className="individual-skills-menu">
+      {/* <div className="individual-skills-menu">
         <button onClick={() => scrollToSection('clubs-experience')} className="skills-menu-item">
           <Link to="#Clubs">Clubs</Link>
         </button>
-      </div>
+      </div> */}
 
     </div>
   );
