@@ -18,11 +18,11 @@ const Umd = () => {
       <p className="education-subtitle">Bachelor of Science in Computer Science and Mathematics (Double Major)</p>
       <p className="education-second-subtitle">Started: August 2023</p>
       <p className="education-second-subtitle">Expected Graduation: December 2026</p>
-      <p className="education-second-subtitle">GPA: 4.0</p>
+      <p className="education-second-subtitle">GPA: 3.94</p>
 
 
 
-      <p className="project-description">I attend the University of Maryland, College Park, where I am currently pursuing a double major in Computer Science and Mathematics. I'm pursuing the Data Science track in the Computer Science Major, where I have maintained a perfect (4.0) GPA after my first two semesters. Furthermore, I'm part of the UMD Honors College system and specifically a member of the <a href="https://aces.umd.edu/" target="_blank" rel="noopener noreferrer">Advanced Cybersecurity Experience for Students (ACES)</a> program. The ACES program is the most selective honors college at UMD, where I am exposed to various networking and technical opportunities to help build my career.</p>
+      <p className="project-description">I attend the University of Maryland, College Park, where I am currently pursuing a double major in Computer Science and Mathematics. I'm pursuing the Data Science track in the Computer Science Major. Furthermore, I'm part of the UMD Honors College system and specifically a member of the <a href="https://aces.umd.edu/" target="_blank" rel="noopener noreferrer">Advanced Cybersecurity Experience for Students (ACES)</a> program. The ACES program is the most selective honors college at UMD, where I am exposed to various networking and technical opportunities to help build my career.</p>
       
       
       {/* <u><h4 className="features-title">Courses:</h4></u>
